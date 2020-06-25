@@ -1,6 +1,5 @@
 <?php
 /*
-
 Plugin Name: MonPlugin
 Plugin URI: 
 Description: First step to create a wordpress plugin
@@ -8,9 +7,7 @@ Version: 0.0.1
 Author: Mehdi & Taoufiq
 Author URI: https://wp_plugin.com/wordpress-plugins/
 License: GPLv2 or later
-
 */
-// define(‘WP_USE_EXT_MYSQL’, true);
 
 add_action("admin_menu","addMenu");
 
@@ -30,33 +27,47 @@ function MonPlugin_index(){
         $option=$_POST['option'];
         $name = $_POST['inputtxt'];
         $email = $_POST['inputarea'];
-$table_name = $wpdb->prefix . "plugin_table";
+        $table_name = $wpdb->prefix . "plugin_table";
 
 $wpdb->insert( $table_name, array(
                         'inputtxt' => $name,
                         'inputarea' => $email,
                         'option'=>$option
                         )); 
-    echo '<h1 style="color:blue; text-align:center">data registred check your info page</h1> ';
+    echo '
+      <div id="message" class="updated below-h2">
+        <p>data registred check your info page</p>
+      </div>
+    ';
     }
   ?>     
-  <center>  
-  <h1 style="color:green; text-align:center">register some infos</h1> 
+   
+  <h1 style="font-size:23px">Register some infos</h1> 
    <form action="" method="post">
-    <label for="inputtxt">Firstname:</label>
-     <input type="text" name="inputtxt" id="inputtxt"  required/><br><br>
-    
-    <label for="inputarea">Texte Area:</label> 
-    <textarea type="text" name="inputarea" id="inputarea"  required></textarea><br><br> 
-   <label for="option"> options :</label>
-    <select name="option" id="option" required>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-    </select><br><br>
-    <input type="submit" name="submit"/>
+    <table>
+        <tr>
+          <td><label style="font-size:20px" for="inputtxt">Firstname</label></td>
+          <td><input style="width:170%" type="text" name="inputtxt" id="inputtxt"  required/><br></td>
+        </tr>
+        <tr>
+          <td><label style="font-size:20px"  for="inputarea">Texte Area</label></td>
+          <td><textarea style="width:170%" type="text" name="inputarea" id="inputarea"  required></textarea></td>
+        </tr>
+        <tr>
+          <td><label style="font-size:20px" for="option"> options </label></td>
+          <td>
+            <select style="width:170%" name="option" id="option" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <br><br><td colspan="2" ><input type="submit" class="button button-primary button-hero load-customize hide-if-no-customize" name="submit"/></td>
+        </tr>
+      </table>
   </form>
-</center>
   <?php
 
 }
@@ -64,28 +75,33 @@ $wpdb->insert( $table_name, array(
 function MonPlugin_NouvellePage(){
     
     
-    echo '<h1 style="color:green; text-align:center">All Data</h1>';
+    echo '<h1 style="color:blue; ">All Data</h1>';
     
     
     global $wpdb;
     $table_name = $wpdb->prefix . "plugin_table";
     $results = $wpdb->get_results( "SELECT * FROM $table_name"); 
     ?>
-    <center>
+   
     <?php
 if(!empty($results))  
-{    
+{  
+    
+    
+    
+    
     ?>  
-    <table >
-        <thead >
-            <tr>
-                <th >ID</th>
+    
+    <table style="width:60%" >
+        <thead  >
+            <tr >
+                <th  >ID</th>
                 <th>Input Text</th>
                 <th>Input Area</th>
                 <th>Input option</th>
             </tr>
         </thead>
-        <tbody s">
+        <tbody >
     <?php
           
     foreach($results as $row){   
@@ -108,7 +124,7 @@ if(!empty($results))
     echo 'there is no data for now';
 }
 ?>
-    </center>
+    
 <?php
 }
 //runs when plugin is activated
