@@ -18,10 +18,15 @@ Plugins WordPress: Elementor pro
 Pour exécuter ce projet, vous devez avoir WAMP / XAMPP sur votre PC.
 
 téléchargez le projet
+
 copiez le dossier principal du projet
+
 Coller dans "xampp/ htdocs" - ("wamp/WWW")
+
 Créer une base de données "wordpress_app"
+
 Importer la base de données wordpress_app.sql 
+
 Ouvrez votre navigateur et accédez à l'URL "http://localhost:8080/[nom du projet]/wp-admin/"
 
 username ou email: me.karbal
