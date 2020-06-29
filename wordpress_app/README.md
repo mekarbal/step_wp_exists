@@ -1,4 +1,4 @@
-wordpress_app
+# wordpress_app
 - CMS (content management system) ou SGC (système de gestion de contenu) regroupe une catégorie de logiciels qui permettent de concevoir, gérer et mettre à jour des sites Web ou des application mobile de manière dynamique.
 
     Pour pouvoir être définis comme CMS, les logiciels doivent pouvoir : . être utilisés simultanément par plusieurs individus. . proposer une chaîne de publication de contenu. . permettre de gérer séparément la forme et le contenu.
@@ -9,7 +9,7 @@ wordpress_app
 
     Exemple de CMS : . Wordpress. . Drupal. . Adobe. . Joomla.
 
-Dans ce projet, j'ai essayé de créer une copie de ce site Web "https:/www.smartchameleontop" en utilisant WordPress.
+# Dans ce projet, j'ai essayé de créer une copie de ce site Web "https:/www.smartchameleontop" en utilisant WordPress.
 
 Nom du thème utilisé: Astra
 
