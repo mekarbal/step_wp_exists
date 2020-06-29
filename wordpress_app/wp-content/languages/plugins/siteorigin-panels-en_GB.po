@@ -1,0 +1,1715 @@
+# Translation of Plugins - Page Builder by SiteOrigin - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Page Builder by SiteOrigin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-29 18:29:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Page Builder by SiteOrigin - Stable (latest release)\n"
+
+#: inc/widgets/post-loop.php:350
+msgid "Help"
+msgstr "Help"
+
+#: inc/styles.php:282
+msgid "Vertical space between cells in a collapsed mobile row. Default is %spx."
+msgstr "Vertical space between cells in a collapsed mobile row. Default is %spx."
+
+#: inc/styles.php:279
+msgid "Mobile Cell Margins"
+msgstr "Mobile Cell Margins"
+
+#: compat/js/siteorigin-panels-layout-block.js:254
+msgid "Build a layout using SiteOrigin's Page Builder."
+msgstr "Build a layout using SiteOrigin's Page Builder."
+
+#: compat/js/siteorigin-panels-layout-block.js:253
+msgid "SiteOrigin Layout"
+msgstr "SiteOrigin Layout"
+
+#: compat/js/siteorigin-panels-layout-block.js:234
+msgid "Edit layout."
+msgstr "Edit layout."
+
+#: compat/js/siteorigin-panels-layout-block.js:222
+msgid "Preview layout."
+msgstr "Preview layout."
+
+#: widgets/widgets.php:163
+msgid "It'll be moved to a separate plugin after Page Builder 2.6 is released. "
+msgstr "It'll be moved to a separate plugin after Page Builder 2.6 is released. "
+
+#: widgets/widgets.php:162
+msgid "Ideally you should move to using widgets from the SiteOrigin Widgets Bundle instead. "
+msgstr "Ideally you should move to using widgets from the SiteOrigin Widgets Bundle instead. "
+
+#: widgets/widgets.php:161
+msgid "This is a legacy widget. "
+msgstr "This is a legacy widget. "
+
+#: inc/styles.php:366
+msgid "Color of links inside this widget."
+msgstr "Colour of links inside this widget."
+
+#: inc/styles.php:347
+msgid "Margins around the widget."
+msgstr "Margins around the widget."
+
+#: inc/styles.php:344
+msgid "Margin"
+msgstr "Margin"
+
+#: inc/styles.php:326
+msgid "Color of links inside this cell."
+msgstr "Colour of links inside this cell."
+
+#: inc/styles.php:323 inc/styles.php:363
+msgid "Links Color"
+msgstr "Links colour"
+
+#: inc/styles.php:318
+msgid "Color of text inside this cell."
+msgstr "Colour of text inside this cell."
+
+#: inc/styles.php:305
+msgid "Use row setting"
+msgstr "Use row setting"
+
+#: inc/styles.php:301
+msgid "Vertical Alignment"
+msgstr "Vertical Alignment"
+
+#: inc/styles.php:298
+msgid "Cell"
+msgstr "Cell"
+
+#: inc/styles.php:274
+msgid "Space below the row on mobile devices. Default is %spx."
+msgstr "Space below the row on mobile devices. Default is %spx."
+
+#: inc/styles.php:271
+msgid "Mobile Bottom Margin"
+msgstr "Mobile Bottom Margin"
+
+#: inc/styles.php:262 inc/styles.php:309
+msgid "Stretch"
+msgstr "Stretch"
+
+#: inc/styles.php:255
+msgid "Cell Vertical Alignment"
+msgstr "Cell Vertical Alignment"
+
+#: inc/styles.php:248
+msgid "Right on Top"
+msgstr "Right on Top"
+
+#: inc/styles.php:247
+msgid "Left on Top"
+msgstr "Left on Top"
+
+#: inc/styles.php:242
+msgid "Collapse Order"
+msgstr "Collapse Order"
+
+#: inc/styles.php:236
+msgid "No Collapse"
+msgstr "No Collapse"
+
+#: inc/styles.php:231
+msgid "Collapse Behaviour"
+msgstr "Collapse Behaviour"
+
+#: inc/styles.php:225
+msgid "Full Width Stretched Padded"
+msgstr "Full Width Stretched Padded"
+
+#: inc/styles.php:213
+msgid "Amount of space between cells. Default is %spx."
+msgstr "Amount of space between cells. Default is %spx."
+
+#: inc/styles.php:205
+msgid "Space below the row. Default is %spx."
+msgstr "Space below the row. Default is %spx."
+
+#: inc/styles.php:163
+msgid "Parallax (Original Size)"
+msgstr "Parallax (Original Size)"
+
+#: inc/styles.php:161
+msgid "Fixed"
+msgstr "Fixed"
+
+#: inc/styles.php:160
+msgid "Contain"
+msgstr "Contain"
+
+#: inc/styles.php:129
+msgid "Padding when on mobile devices."
+msgstr "Padding when on mobile devices."
+
+#: inc/styles.php:126
+msgid "Mobile Padding"
+msgstr "Mobile Padding"
+
+#: inc/styles.php:89
+msgid "%s Class"
+msgstr "%s Class"
+
+#: inc/styles.php:84
+msgid "A custom ID used for this %s."
+msgstr "A custom ID used for this %s."
+
+#: inc/styles.php:81
+msgid "%s ID"
+msgstr "%s ID"
+
+#: inc/widgets/layout.php:84
+msgid "This widget can currently only be used in the WordPress admin interface."
+msgstr "This widget can currently only be used in the WordPress admin interface."
+
+#: inc/widgets/post-loop-helper.php:57
+msgid "Posts query"
+msgstr "Posts query"
+
+#: inc/widgets/post-loop-helper.php:51
+msgid "More link"
+msgstr "More link"
+
+#: inc/admin.php:1478
+msgid "Toggle editor selection menu"
+msgstr "Toggle editor selection menu"
+
+#: inc/admin.php:1293
+msgid "Get premium email support for SiteOrigin Page Builder"
+msgstr "Get premium email support for SiteOrigin Page Builder"
+
+#: inc/admin.php:1289
+msgid "Get the row, cell and widget animations addon"
+msgstr "Get the row, cell and widget animations Add-on"
+
+#: inc/admin.php:1285
+msgid "Get a lightbox addon for SiteOrigin widgets"
+msgstr "Get a lightbox Add-on for SiteOrigin widgets"
+
+#: inc/admin.php:1242
+msgid "%s Widget"
+msgid_plural "%s Widgets"
+msgstr[0] "%s Widget"
+msgstr[1] "%s Widgets"
+
+#: inc/admin.php:1135
+msgid "Missing widget type."
+msgstr "Missing widget type."
+
+#: inc/admin.php:1134
+msgid "Please specify the type of widget form to be rendered."
+msgstr "Please specify the type of widget form to be rendered."
+
+#: inc/admin.php:490
+msgid "Unknown error. Failed to load the form. Please check your internet connection, contact your web site administrator, or try again later."
+msgstr "Unknown error. Failed to load the form. Please check your internet connection, contact your web site administrator, or try again later."
+
+#: inc/admin.php:472
+msgid "Read our %s if you need help."
+msgstr "Read our %s if you need help."
+
+#: inc/admin.php:467
+msgid "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
+msgstr "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
+
+#: inc/admin.php:466
+msgid "Add a {{%= items[0] %}} or {{%= items[1] %}} to get started."
+msgstr "Add a {{%= items[0] %}} or {{%= items[1] %}} to get started."
+
+#: inc/admin.php:465
+msgid "Add a {{%= items[0] %}} to get started."
+msgstr "Add a {{%= items[0] %}} to get started."
+
+#: inc/admin.php:464
+msgid "Hmmm... Adding layout elements is not enabled. Please check if Page Builder has been configured to allow adding elements."
+msgstr "Hmmm... Adding layout elements is not enabled. Please check if Page Builder has been configured to allow adding elements."
+
+#: inc/admin.php:460
+msgid "New Row"
+msgstr "New Row"
+
+#: inc/admin.php:458
+msgid "Untitled"
+msgstr "Untitled"
+
+#: inc/admin.php:457
+msgid "Draft"
+msgstr "Draft"
+
+#: inc/admin.php:455
+msgid "Paste Row"
+msgstr "Paste Row"
+
+#: inc/admin.php:454
+msgid "Copy Row"
+msgstr "Copy Row"
+
+#: inc/admin.php:450
+msgid "Row Actions"
+msgstr "Row Actions"
+
+#: inc/admin.php:448
+msgid "Paste Widget Below"
+msgstr "Paste Widget Below"
+
+#: inc/admin.php:447
+msgid "Copy Widget"
+msgstr "Copy Widget"
+
+#: inc/admin.php:446
+msgid "Delete Widget"
+msgstr "Delete Widget"
+
+#: inc/admin.php:445
+msgid "Duplicate Widget"
+msgstr "Duplicate Widget"
+
+#: inc/admin.php:444
+msgid "Edit Widget"
+msgstr "Edit Widget"
+
+#: inc/admin.php:443
+msgid "Widget Actions"
+msgstr "Widget Actions"
+
+#: inc/admin.php:441
+msgid "Paste Widget"
+msgstr "Paste Widget"
+
+#: inc/admin.php:440
+msgid "Cell Actions"
+msgstr "Cell Actions"
+
+#: inc/admin.php:429
+msgid "%s is ready to insert."
+msgstr "%s is ready to insert."
+
+#: inc/admin.php:411
+msgid "Row pasted"
+msgstr "Row pasted"
+
+#: inc/styles-admin.php:256
+msgid "External URL"
+msgstr "External URL"
+
+#: inc/styles-admin.php:199 inc/styles.php:261 inc/styles.php:308
+msgid "Bottom"
+msgstr "Bottom"
+
+#: inc/styles-admin.php:191 inc/styles.php:259 inc/styles.php:306
+msgid "Top"
+msgstr "Top"
+
+#: inc/styles-admin.php:92
+msgid "Mobile Layout"
+msgstr "Mobile Layout"
+
+#: inc/styles-admin.php:51
+msgid "Cell%s Styles"
+msgstr "Cell%s Styles"
+
+#: inc/styles-admin.php:34
+msgid "Missing style form type."
+msgstr "Missing style form type."
+
+#: inc/styles-admin.php:33
+msgid "Please specify the type of style form to be rendered."
+msgstr "Please specify the type of style form to be rendered."
+
+#: inc/admin.php:1128 inc/styles-admin.php:24
+msgid "Invalid nonce."
+msgstr "Invalid nonce."
+
+#: inc/admin.php:1127 inc/styles-admin.php:23
+msgid "The supplied nonce is invalid."
+msgstr "The supplied nonce is invalid."
+
+#: inc/admin-layouts.php:387
+msgid "There was a problem fetching the layout. Please try again later."
+msgstr "There was a problem fetching the layout. Please try again later."
+
+#: inc/admin-layouts.php:341
+msgid "Missing layout ID or no such layout exists"
+msgstr "Missing layout ID or no such layout exists"
+
+#: inc/admin-layouts.php:308
+msgid " - Results For:"
+msgstr " - Results For:"
+
+#: inc/admin-layouts.php:270
+msgid "Clone %s"
+msgstr "Clone %s"
+
+#: inc/admin-layouts.php:199
+msgid "Theme Defined Layouts"
+msgstr "Theme Defined Layouts"
+
+#: inc/admin-layouts.php:184
+msgid "Invalid request."
+msgstr "Invalid request."
+
+#: inc/settings.php:450
+msgid "Include styles into your Post Content. This keeps page layouts, even when Page Builder is deactivated."
+msgstr "Include styles into your post content. This keeps page layouts, even when Page Builder is deactivated."
+
+#: inc/settings.php:449
+msgid "Copy Styles"
+msgstr "Copy Styles"
+
+#: inc/settings.php:416
+msgid "Allow margin in last row."
+msgstr "Allow margin in last row."
+
+#: inc/settings.php:415
+msgid "Last Row With Margin"
+msgstr "Last Row With Margin"
+
+#: inc/settings.php:410
+msgid "Default margin below rows and widgets."
+msgstr "Default margin below rows and widgets."
+
+#: inc/settings.php:409
+msgid "Row/Widget Bottom Margin"
+msgstr "Row/Widget Bottom Margin"
+
+#: inc/settings.php:396
+msgid "Device width, in pixels, to collapse into a tablet view ."
+msgstr "Device width, in pixels, to collapse into a tablet view ."
+
+#: inc/settings.php:395
+msgid "Tablet Width"
+msgstr "Tablet Width"
+
+#: inc/settings.php:389
+msgid "The CSS and HTML uses floats instead of flexbox for compatibility with very old browsers."
+msgstr "The CSS and HTML uses floats instead of flexbox for compatibility with very old browsers."
+
+#: inc/settings.php:388
+msgid "Use Legacy Layout Engine"
+msgstr "Use Legacy Layout Engine"
+
+#: inc/settings.php:386
+msgid "Always"
+msgstr "Always"
+
+#: inc/settings.php:385
+msgid "Never"
+msgstr "Never"
+
+#: inc/settings.php:384
+msgid "Detect older browsers"
+msgstr "Detect older browsers"
+
+#: inc/settings.php:378
+msgid "Collapses columns differently on tablet devices."
+msgstr "Collapses columns differently on tablet devices."
+
+#: inc/settings.php:377
+msgid "Use Tablet Layout"
+msgstr "Use Tablet Layout"
+
+#: inc/settings.php:357
+msgid "Open a widget form as soon as its added to a page."
+msgstr "Open a widget form as soon as its added to a page."
+
+#: inc/settings.php:356
+msgid "Instant Open Widgets"
+msgstr "Instant Open Widgets"
+
+#: inc/settings.php:339
+msgid "Add the widget class to Page Builder widgets. Disable this if you're experiencing conflicts."
+msgstr "Add the widget class to Page Builder widgets. Disable this if you're experiencing conflicts."
+
+#: inc/settings.php:338
+msgid "Add Widget Class"
+msgstr "Add Widget Class"
+
+#: inc/settings.php:320
+msgid "Whether to display layout blocks in edit mode or preview mode in the block editor."
+msgstr "Whether to display layout blocks in edit mode or preview mode in the block editor."
+
+#: inc/settings.php:318
+msgid "Preview"
+msgstr "Preview"
+
+#: inc/settings.php:314
+msgid "Layout Block Default Mode"
+msgstr "Layout Block Default Mode"
+
+#: inc/settings.php:305
+msgid "Default To Page Builder Interface"
+msgstr "Default To Page Builder Interface"
+
+#: inc/settings.php:297
+msgid "Display the %sSiteOrigin Premium%s upgrade teaser in the Page Builder toolbar."
+msgstr "Display the %sSiteOrigin Premium%s upgrade teaser in the Page Builder toolbar."
+
+#: inc/settings.php:295
+msgid "Upgrade Teaser"
+msgstr "Upgrade Teaser"
+
+#: inc/settings.php:290
+msgid "Page Builder will create an emulated sidebar, that contains all widgets in the page."
+msgstr "Page Builder will create an emulated sidebar, that contains all widgets in the page."
+
+#: inc/settings.php:289
+msgid "Sidebars Emulator"
+msgstr "Sidebars Emulator"
+
+#: inc/settings.php:284
+msgid "How many pixels of scrolling result in a single pixel of parallax motion. 0 means automatic. Lower values give more noticeable effect."
+msgstr "How many pixels of scrolling result in a single pixel of parallax motion. 0 means automatic. Lower values give more noticeable effect."
+
+#: inc/settings.php:283
+msgid "Limit Parallax Motion"
+msgstr "Limit Parallax Motion"
+
+#: inc/settings.php:278
+msgid "Display a widget count in the admin lists of posts/pages where you're using Page Builder."
+msgstr "Display a widget count in the admin lists of posts/pages where you're using Page Builder."
+
+#: inc/settings.php:277
+msgid "Display Widget Count"
+msgstr "Display Widget Count"
+
+#: inc/settings.php:269
+msgid "Display a %sSiteOrigin Page Builder%s post state in the admin lists of posts/pages to indicate Page Builder is active."
+msgstr "Display a %sSiteOrigin Page Builder%s post state in the admin lists of posts/pages to indicate Page Builder is active."
+
+#: inc/settings.php:267
+msgid "Display Post State"
+msgstr "Display Post State"
+
+#: inc/settings.php:261
+msgid "Live Editor Quick Link"
+msgstr "Live Editor Quick Link"
+
+#: tpl/js-templates.php:564
+msgid "Toggle mobile mode"
+msgstr "Toggle mobile mode"
+
+#: tpl/js-templates.php:561
+msgid "Toggle tablet mode"
+msgstr "Toggle tablet mode"
+
+#: tpl/js-templates.php:558
+msgid "Toggle desktop mode"
+msgstr "Toggle desktop mode"
+
+#: tpl/js-templates.php:554 tpl/js-templates.php:555
+msgid "Update"
+msgstr "Update"
+
+#: tpl/js-templates.php:553
+msgid "Save Draft"
+msgstr "Save Draft"
+
+#: tpl/js-templates.php:422
+msgid "Replace current"
+msgstr "Replace current"
+
+#: tpl/js-templates.php:421
+msgid "Insert before"
+msgstr "Insert before"
+
+#: tpl/js-templates.php:420
+msgid "Insert after"
+msgstr "Insert after"
+
+#: tpl/js-templates.php:378
+msgid "Page Builder Layouts"
+msgstr "Page Builder Layouts"
+
+#: tpl/js-templates.php:71
+msgid "Pro Tip"
+msgstr "Pro Tip"
+
+#: inc/admin.php:473 tpl/js-templates.php:64
+msgid "documentation"
+msgstr "documentation"
+
+#: inc/admin.php:470 tpl/js-templates.php:63
+msgid "Prebuilt Layout"
+msgstr "Prebuilt Layout"
+
+#: inc/admin.php:461 inc/admin.php:469 inc/styles.php:189
+#: tpl/js-templates.php:62
+msgid "Row"
+msgstr "Row"
+
+#: inc/admin.php:468 inc/styles.php:341 tpl/js-templates.php:61
+msgid "Widget"
+msgstr "Widget"
+
+#: tpl/js-templates.php:60
+msgid "Add a %s, %s or %s to get started. Read our %s if you need help."
+msgstr "Add a %s, %s or %s to get started. Read our %s if you need help."
+
+#: tpl/js-templates.php:48
+msgid "Revert to Editor"
+msgstr "Revert to Editor"
+
+#. Author URI of the plugin
+msgid "https://siteorigin.com"
+msgstr "https://siteorigin.com"
+
+#. Author of the plugin
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Description of the plugin
+msgid "A drag and drop, responsive page builder that simplifies building your website."
+msgstr "A drag and drop, responsive page builder that simplifies building your website."
+
+#. Plugin URI of the plugin
+msgid "https://siteorigin.com/page-builder/"
+msgstr "https://siteorigin.com/page-builder/"
+
+#. Plugin Name of the plugin
+msgid "Page Builder by SiteOrigin"
+msgstr "Page Builder by SiteOrigin"
+
+#: widgets/widgets.php:964
+msgid "Auto Play Video"
+msgstr "Auto Play Video"
+
+#: widgets/widgets.php:959
+msgid "An image that displays before the video starts playing."
+msgstr "An image that displays before the video starts playing."
+
+#: widgets/widgets.php:957
+msgid "Poster URL"
+msgstr "Poster URL"
+
+#: widgets/widgets.php:953
+msgid "Video URL"
+msgstr "Video URL"
+
+#: widgets/widgets.php:911
+msgid "A self hosted video player."
+msgstr "A self-hosted video player."
+
+#: widgets/widgets.php:909
+msgid "Self Hosted Video (PB)"
+msgstr "Self-Hosted Video (PB)"
+
+#: widgets/widgets.php:893
+msgid "Video"
+msgstr "Video"
+
+#: widgets/widgets.php:855
+msgid "Embeds a video."
+msgstr "Embeds a video."
+
+#: widgets/widgets.php:853
+msgid "Embedded Video (PB)"
+msgstr "Embedded Video (PB)"
+
+#: widgets/widgets.php:802
+msgid "Displays a simple image."
+msgstr "Displays a simple image."
+
+#: widgets/widgets.php:800
+msgid "Image (PB)"
+msgstr "Image (PB)"
+
+#: widgets/widgets.php:782
+msgid "File"
+msgstr "File"
+
+#: widgets/widgets.php:781
+msgid "Attachment Page"
+msgstr "Attachment Page"
+
+#: widgets/widgets.php:779
+msgid "Link To"
+msgstr "Link To"
+
+#: widgets/widgets.php:774
+msgid "Columns"
+msgstr "Columns"
+
+#: widgets/widgets.php:769
+msgid "Gallery Type"
+msgstr "Gallery Type"
+
+#: widgets/widgets.php:761
+msgid "Full"
+msgstr "Full"
+
+#: widgets/widgets.php:760
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: widgets/widgets.php:759
+msgid "Medium"
+msgstr "Medium"
+
+#: widgets/widgets.php:758
+msgid "Large"
+msgstr "Large"
+
+#: widgets/widgets.php:755
+msgid "Image Size"
+msgstr "Image Size"
+
+#: widgets/widgets.php:751
+msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
+msgstr "Comma-separated attachment IDs. Defaults to all current page's attachments."
+
+#: widgets/widgets.php:747
+msgid "edit gallery"
+msgstr "edit gallery"
+
+#: widgets/widgets.php:746
+msgid "Gallery Images"
+msgstr "Gallery Images"
+
+#: widgets/widgets.php:707
+msgid "Displays a gallery."
+msgstr "Displays a gallery."
+
+#: widgets/widgets.php:705
+msgid "Gallery (PB)"
+msgstr "Gallery (PB)"
+
+#: widgets/widgets.php:644
+msgid "Additional Arguments"
+msgstr "Additional Arguments"
+
+#: widgets/widgets.php:244
+msgid "%s Style"
+msgstr "%s Style"
+
+#: widgets/widgets.php:220
+msgid "Style"
+msgstr "Style"
+
+#: widgets/widgets/testimonial/testimonial.php:32
+msgid "URL"
+msgstr "URL"
+
+#: widgets/widgets/testimonial/testimonial.php:23
+msgid "Image"
+msgstr "Image"
+
+#: widgets/widgets/testimonial/testimonial.php:19
+msgid "Location"
+msgstr "Location"
+
+#: widgets/widgets/testimonial/testimonial.php:8
+msgid "Displays a bullet list of points"
+msgstr "Displays a bullet list of points"
+
+#: widgets/widgets/testimonial/testimonial.php:6
+msgid "Testimonial (PB)"
+msgstr "Testimonial (PB)"
+
+#: widgets/widgets/price-box/price-box.php:50
+msgid "Feature List"
+msgstr "Feature List"
+
+#: widgets/widgets/price-box/price-box.php:31
+msgid "Features Text"
+msgstr "Features Text"
+
+#: widgets/widgets/price-box/price-box.php:27
+msgid "Information Text"
+msgstr "Information Text"
+
+#: widgets/widgets/price-box/price-box.php:23
+msgid "Per"
+msgstr "Per"
+
+#: widgets/widgets/price-box/price-box.php:19
+msgid "Price"
+msgstr "Price"
+
+#: widgets/widgets/price-box/price-box.php:6
+msgid "Price Box (PB)"
+msgstr "Price Box (PB)"
+
+#: widgets/widgets/price-box/price-box.php:32 widgets/widgets/list/list.php:20
+msgid "Start each new point with an asterisk (*)"
+msgstr "Start each new point with an asterisk (*)"
+
+#: widgets/widgets/price-box/price-box.php:8 widgets/widgets/list/list.php:8
+msgid "Displays a bullet list of elements"
+msgstr "Displays a bullet list of elements"
+
+#: widgets/widgets/list/list.php:6
+msgid "List (PB)"
+msgstr "List (PB)"
+
+#: widgets/widgets/call-to-action/call-to-action.php:37
+#: widgets/widgets/price-box/price-box.php:49
+msgid "Button"
+msgstr "Button"
+
+#: widgets/widgets/call-to-action/call-to-action.php:27
+#: widgets/widgets/price-box/price-box.php:40
+msgid "Button URL"
+msgstr "Button URL"
+
+#: widgets/widgets/call-to-action/call-to-action.php:23
+#: widgets/widgets/price-box/price-box.php:36
+msgid "Button Text"
+msgstr "Button Text"
+
+#: widgets/widgets/call-to-action/call-to-action.php:19
+msgid "Sub Title"
+msgstr "Sub Title"
+
+#: widgets/widgets/call-to-action/call-to-action.php:8
+msgid "A Call to Action block"
+msgstr "A Call to Action block"
+
+#: widgets/widgets/call-to-action/call-to-action.php:6
+msgid "Call To Action (PB)"
+msgstr "Call To Action (PB)"
+
+#: widgets/widgets/button/button.php:32
+msgid "Justify"
+msgstr "Justify"
+
+#: inc/styles.php:260 inc/styles.php:307 widgets/widgets/button/button.php:31
+msgid "Center"
+msgstr "Centre"
+
+#: inc/styles-admin.php:195 widgets/widgets/button/button.php:30
+msgid "Right"
+msgstr "Right"
+
+#: inc/styles-admin.php:203 widgets/widgets/button/button.php:29
+msgid "Left"
+msgstr "Left"
+
+#: widgets/widgets/button/button.php:27
+msgid "Button Alignment"
+msgstr "Button Alignment"
+
+#: widgets/widgets/button/button.php:23
+#: widgets/widgets/testimonial/testimonial.php:36
+#: widgets/widgets/call-to-action/call-to-action.php:31
+#: widgets/widgets/price-box/price-box.php:44
+msgid "Open In New Window"
+msgstr "Open In New Window"
+
+#: widgets/widgets/button/button.php:19 widgets/widgets.php:839
+msgid "Destination URL"
+msgstr "Destination URL"
+
+#: widgets/widgets/button/button.php:15
+#: widgets/widgets/testimonial/testimonial.php:27
+#: widgets/widgets/list/list.php:19
+msgid "Text"
+msgstr "Text"
+
+#: widgets/widgets/button/button.php:6
+msgid "Button (PB)"
+msgstr "Button (PB)"
+
+#: widgets/widgets/animated-image/animated-image.php:25
+msgid "Slide Right"
+msgstr "Slide Right"
+
+#: widgets/widgets/animated-image/animated-image.php:24
+msgid "Slide Left"
+msgstr "Slide Left"
+
+#: widgets/widgets/animated-image/animated-image.php:23
+msgid "Slide Down"
+msgstr "Slide Down"
+
+#: widgets/widgets/animated-image/animated-image.php:22
+msgid "Slide Up"
+msgstr "Slide Up"
+
+#: widgets/widgets/animated-image/animated-image.php:21
+msgid "Fade In"
+msgstr "Fade In"
+
+#: widgets/widgets/animated-image/animated-image.php:19
+msgid "Animation"
+msgstr "Animation"
+
+#: widgets/widgets/animated-image/animated-image.php:15 widgets/widgets.php:835
+msgid "Image URL"
+msgstr "Image URL"
+
+#: widgets/widgets/animated-image/animated-image.php:8
+msgid "An image that animates in when it enters the screen."
+msgstr "An image that animates in when it enters the screen."
+
+#: widgets/widgets/animated-image/animated-image.php:6
+msgid "Animated Image (PB)"
+msgstr "Animated Image (PB)"
+
+#: inc/widgets/post-loop.php:344 widgets/widgets.php:648
+msgid "Additional query arguments. See 1{query_posts}."
+msgstr "Additional query arguments. See 1{query_posts}."
+
+#: inc/widgets/post-loop.php:337
+msgid "Additional "
+msgstr "Additional "
+
+#: inc/widgets/post-loop.php:332 widgets/widgets.php:638
+msgid "Only Sticky"
+msgstr "Only Sticky"
+
+#: inc/widgets/post-loop.php:331 widgets/widgets.php:637
+msgid "Exclude Sticky"
+msgstr "Exclude Sticky"
+
+#: inc/widgets/post-loop.php:330 widgets/widgets.php:636
+msgid "Ignore Sticky"
+msgstr "Ignore Sticky"
+
+#: inc/widgets/post-loop.php:329 inc/styles.php:246 widgets/widgets.php:635
+#: widgets/widgets.php:757
+msgid "Default"
+msgstr "Default"
+
+#: inc/widgets/post-loop.php:327 widgets/widgets.php:633
+msgid "Sticky Posts"
+msgstr "Sticky Posts"
+
+#: inc/widgets/post-loop.php:322 widgets/widgets.php:626
+msgid "Ascending"
+msgstr "Ascending"
+
+#: inc/widgets/post-loop.php:321 widgets/widgets.php:627
+msgid "Descending"
+msgstr "Descending"
+
+#: inc/widgets/post-loop.php:319 widgets/widgets.php:624
+msgid "Order"
+msgstr "Order"
+
+#: inc/widgets/post-loop.php:314
+msgid "Post In Order"
+msgstr "Post In Order"
+
+#: inc/widgets/post-loop.php:313 widgets/widgets.php:618
+msgid "Menu Order"
+msgstr "Menu Order"
+
+#: inc/widgets/post-loop.php:312 widgets/widgets.php:617
+msgid "Comment Count"
+msgstr "Comment Count"
+
+#: inc/widgets/post-loop.php:311 widgets/widgets.php:616
+msgid "Random"
+msgstr "Random"
+
+#: inc/widgets/post-loop.php:310 widgets/widgets.php:615
+msgid "Parent"
+msgstr "Parent"
+
+#: inc/widgets/post-loop.php:309 widgets/widgets.php:614
+msgid "Modified"
+msgstr "Modified"
+
+#: inc/widgets/post-loop.php:308 widgets/widgets.php:613
+msgid "Date"
+msgstr "Date"
+
+#: inc/widgets/post-loop.php:306 inc/widgets/post-loop.php:307
+#: widgets/widgets/testimonial/testimonial.php:15 widgets/widgets.php:611
+#: widgets/widgets.php:612
+msgid "Name"
+msgstr "Name"
+
+#: inc/widgets/post-loop.php:305 widgets/widgets.php:610
+msgid "Author"
+msgstr "Author"
+
+#: inc/widgets/post-loop.php:304 widgets/widgets.php:609
+msgid "Post ID"
+msgstr "Post ID"
+
+#: inc/widgets/post-loop.php:301 widgets/widgets.php:606
+msgid "Order By"
+msgstr "Order By"
+
+#: inc/widgets/post-loop.php:296 widgets/widgets.php:601
+msgid "Posts Per Page"
+msgstr "Posts Per Page"
+
+#: inc/widgets/post-loop.php:287 widgets/widgets.php:594
+msgid "Post Type"
+msgstr "Post Type"
+
+#: inc/widgets/post-loop-helper.php:52 inc/widgets/post-loop.php:272
+msgid "If the template supports it, cut posts and display the more link."
+msgstr "If the template supports it, cut posts and display the more link."
+
+#: inc/widgets/post-loop-helper.php:45 inc/widgets/post-loop.php:254
+msgid "Template"
+msgstr "Template"
+
+#: inc/widgets/post-loop.php:220
+msgid "Your theme doesn't have any post loops."
+msgstr "Your theme doesn't have any post loops."
+
+#: inc/widgets/post-loop-helper.php:33 inc/widgets/post-loop.php:25
+msgid "Displays a post loop."
+msgstr "Displays a post loop."
+
+#: inc/widgets/post-loop-helper.php:31 inc/widgets/post-loop.php:23
+msgid "Post Loop"
+msgstr "Post Loop"
+
+#: inc/widgets/post-content.php:67
+msgid "Display Content"
+msgstr "Display Content"
+
+#: inc/widgets/post-content.php:62
+msgid "Featured Image"
+msgstr "Featured Image"
+
+#: inc/widgets/post-loop-helper.php:41 inc/widgets/post-content.php:61
+#: inc/widgets/post-loop.php:250
+#: widgets/widgets/call-to-action/call-to-action.php:15
+#: widgets/widgets/price-box/price-box.php:15 widgets/widgets/list/list.php:15
+msgid "Title"
+msgstr "Title"
+
+#: inc/widgets/post-content.php:60 inc/widgets/post-loop.php:303
+#: widgets/widgets.php:608 widgets/widgets.php:783
+msgid "None"
+msgstr "None"
+
+#: inc/widgets/post-content.php:14
+msgid "Displays content from the current post."
+msgstr "Displays content from the current post."
+
+#: inc/widgets/post-content.php:12
+msgid "Post Content"
+msgstr "Post Content"
+
+#: inc/widgets/layout.php:109
+msgid "Open Builder"
+msgstr "Open Builder"
+
+#: inc/widgets/layout.php:15
+msgid "A complete SiteOrigin Page Builder layout as a widget."
+msgstr "A complete SiteOrigin Page Builder layout as a widget."
+
+#: inc/widgets/layout.php:13
+msgid "Layout Builder"
+msgstr "Layout Builder"
+
+#: tpl/js-templates.php:603
+msgid "No Results"
+msgstr "No Results"
+
+#: tpl/js-templates.php:530
+msgid "Restore Version"
+msgstr "Restore Version"
+
+#: tpl/js-templates.php:515
+msgid "Page Builder Change History"
+msgstr "Page Builder Change History"
+
+#: tpl/js-templates.php:504
+msgid "Download Layout"
+msgstr "Download Layout"
+
+#: tpl/js-templates.php:490
+msgid "Select Import File"
+msgstr "Select Import File"
+
+#: tpl/js-templates.php:487
+msgid "Or"
+msgstr "Or"
+
+#: tpl/js-templates.php:486
+msgid "Drop import file here"
+msgstr "Drop import file here"
+
+#: tpl/js-templates.php:476
+msgid "Next"
+msgstr "Next"
+
+#: tpl/js-templates.php:475
+msgid "Previous"
+msgstr "Previous"
+
+#: tpl/js-templates.php:447
+msgid "Your search didn't return any results"
+msgstr "Your search didn't return any results"
+
+#: tpl/js-templates.php:434
+msgid "Enable"
+msgstr "Enable"
+
+#: tpl/js-templates.php:433
+msgid "Do you want to browse the Prebuilt Layouts directory?"
+msgstr "Do you want to browse the Prebuilt Layouts directory?"
+
+#: tpl/js-templates.php:404
+msgid "Clone: %s"
+msgstr "Clone: %s"
+
+#: tpl/js-templates.php:397
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: inc/admin-layouts.php:40 inc/admin-layouts.php:220
+msgid "Layouts Directory"
+msgstr "Layouts Directory"
+
+#: tpl/js-templates.php:382
+msgid "Search"
+msgstr "Search"
+
+#: tpl/js-templates.php:22 tpl/js-templates.php:387
+msgid "Prebuilt Layouts"
+msgstr "Prebuilt Layouts"
+
+#: tpl/js-templates.php:358 tpl/js-templates.php:416
+msgid "Insert"
+msgstr "Insert"
+
+#: tpl/js-templates.php:339
+msgid "Set"
+msgstr "Set"
+
+#: tpl/js-templates.php:333
+msgid "1{Set row layout}: %1$s columns with a ratio of %2$s going from %3$s"
+msgstr "1{Set row layout}: %1$s columns with a ratio of %2$s going from %3$s"
+
+#: tpl/js-templates.php:322
+msgid "Right to Left"
+msgstr "Right to Left"
+
+#: tpl/js-templates.php:321
+msgid "Left to Right"
+msgstr "Left to Right"
+
+#: tpl/js-templates.php:236 tpl/js-templates.php:556
+msgid "Close"
+msgstr "Close"
+
+#: tpl/js-templates.php:220
+msgid "Add New Widget %s"
+msgstr "Add New Widget %s"
+
+#: tpl/js-templates.php:206 tpl/js-templates.php:271 tpl/js-templates.php:360
+msgid "Done"
+msgstr "Done"
+
+#: tpl/js-templates.php:143 tpl/js-templates.php:267 tpl/js-templates.php:352
+msgid "Delete"
+msgstr "Delete"
+
+#: tpl/js-templates.php:142 tpl/js-templates.php:268 tpl/js-templates.php:353
+msgid "Duplicate"
+msgstr "Duplicate"
+
+#: inc/settings.php:317 tpl/js-templates.php:141
+msgid "Edit"
+msgstr "Edit"
+
+#: inc/admin.php:453 tpl/js-templates.php:97
+msgid "Delete Row"
+msgstr "Delete Row"
+
+#: inc/admin.php:452 tpl/js-templates.php:96
+msgid "Duplicate Row"
+msgstr "Duplicate Row"
+
+#: inc/admin.php:451 tpl/js-templates.php:95
+msgid "Edit Row"
+msgstr "Edit Row"
+
+#: siteorigin-panels.php:506 tpl/js-templates.php:34 tpl/js-templates.php:36
+msgid "Live Editor"
+msgstr "Live Editor"
+
+#: tpl/js-templates.php:31
+msgid "History"
+msgstr "History"
+
+#: tpl/js-templates.php:12 tpl/js-templates.php:14
+msgid "Add Widget"
+msgstr "Add Widget"
+
+#: tpl/help.php:18
+msgid "Read the 1{full documentation} on SiteOrigin. Ask a question on our 2{support forum} if you need help and sign up to 3{our newsletter} to stay up to date with future developments."
+msgstr "Read the 1{full documentation} on SiteOrigin. Ask a question on our 2{support forum} if you need help and sign up to 3{our newsletter} to stay up to date with future developments."
+
+#: tpl/help.php:3
+msgid "The page layouts are responsive and fully customizable."
+msgstr "The page layouts are responsive and fully customisable."
+
+#: tpl/help.php:2
+msgid "You can use SiteOrigin Page Builder to create home and sub pages, filled your own widgets."
+msgstr "You can use SiteOrigin Page Builder to create home and sub pages, filled with your own widgets."
+
+#: tpl/admin-home-page.php:64
+msgid "This interface requires Javascript"
+msgstr "This interface requires JavaScript"
+
+#: tpl/admin-home-page.php:60
+msgid "Save Home Page"
+msgstr "Save Home Page"
+
+#: tpl/admin-home-page.php:41
+msgid "Home page updated. 1{View page}."
+msgstr "Home page updated. 1{View page}."
+
+#: tpl/admin-home-page.php:25
+msgid "Custom Home Page"
+msgstr "Custom Home Page"
+
+#: tpl/admin-home-page.php:21
+msgid "Off"
+msgstr "Off"
+
+#: tpl/admin-home-page.php:21
+msgid "On"
+msgstr "On"
+
+#: inc/admin.php:162 inc/admin-dashboard.php:95
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: inc/admin.php:961
+msgid "The widget 1{%1$s} is not available. Please try locate and install the missing plugin. Post on the 2{support forums} if you need help."
+msgstr "The widget 1{%1$s} is not available. Please try to locate and install the missing plugin. Post on the 2{support forums} if you need help."
+
+#: inc/admin.php:945
+msgid "Save and reload this page to start using the widget after you've installed it."
+msgstr "Save and reload this page to start using the widget after you've installed it."
+
+#: inc/admin.php:939
+msgid "You need to install 1{%1$s} to use the widget 2{%2$s}."
+msgstr "You need to install 1{%1$s} to use the widget 2{%2$s}."
+
+#: siteorigin-panels.php:486
+msgid "Edit Home Page"
+msgstr "Edit Home Page"
+
+#: siteorigin-panels.php:338
+msgid "Read More"
+msgstr "Read More"
+
+#: inc/admin.php:759
+msgid "Untitled Widget"
+msgstr "Untitled Widget"
+
+#: inc/admin.php:483
+msgid "Error uploading or importing file."
+msgstr "Error uploading or importing file."
+
+#: inc/admin.php:482
+msgid "Page Builder layouts"
+msgstr "Page Builder layouts"
+
+#: inc/admin.php:438
+msgid "Column"
+msgstr "Column"
+
+#: inc/admin.php:437 tpl/js-templates.php:17 tpl/js-templates.php:19
+msgid "Add Row"
+msgstr "Add Row"
+
+#: inc/admin.php:435 tpl/js-templates.php:224
+msgid "Search Widgets"
+msgstr "Search Widgets"
+
+#: inc/admin.php:434
+msgid "Add Widget to Cell"
+msgstr "Add Widget to Cell"
+
+#: inc/admin.php:433
+msgid "Add Widget Below"
+msgstr "Add Widget Below"
+
+#: inc/admin.php:427 tpl/js-templates.php:97 tpl/js-templates.php:422
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: inc/admin.php:425
+msgid "Layout Builder Widget"
+msgstr "Layout Builder Widget"
+
+#: inc/admin.php:423
+msgid "Would you like to clear your Page Builder content and revert to using the standard visual editor?"
+msgstr "Would you like to clear your Page Builder content and revert to using the standard visual editor?"
+
+#: inc/admin.php:422
+msgid "Would you like to copy this editor's existing content to Page Builder?"
+msgstr "Would you like to copy this editor's existing content to Page Builder?"
+
+#: inc/admin.php:421
+msgid "Loading prebuilt layout"
+msgstr "Loading prebuilt layout"
+
+#: inc/admin.php:417
+msgid "Prebuilt layout loaded"
+msgstr "Prebuilt layout loaded"
+
+#: inc/admin.php:414
+msgid "Cell resized"
+msgstr "Cell resized"
+
+#: inc/admin.php:409
+msgid "Row duplicated"
+msgstr "Row duplicated"
+
+#: inc/admin.php:407
+msgid "Row moved"
+msgstr "Row moved"
+
+#: inc/admin.php:405
+msgid "Row edited"
+msgstr "Row edited"
+
+#: inc/admin.php:403
+msgid "Row added"
+msgstr "Row added"
+
+#: inc/admin.php:401
+msgid "Row deleted"
+msgstr "Row deleted"
+
+#: inc/admin.php:397
+msgid "Widget moved"
+msgstr "Widget moved"
+
+#: inc/admin.php:395
+msgid "Widget duplicated"
+msgstr "Widget duplicated"
+
+#: inc/admin.php:393
+msgid "Widget edited"
+msgstr "Widget edited"
+
+#: inc/admin.php:391
+msgid "Widget added"
+msgstr "Widget added"
+
+#: inc/admin.php:389
+msgid "Widget deleted"
+msgstr "Widget deleted"
+
+#: inc/admin.php:385
+msgid "Converted to editor"
+msgstr "Converted to editor"
+
+#: inc/admin.php:384
+msgid "Version restored"
+msgstr "Version restored"
+
+#: inc/admin.php:383
+msgid "Original"
+msgstr "Original"
+
+#: inc/admin.php:382
+msgid "Current"
+msgstr "Current"
+
+#: inc/admin.php:378
+msgid "Now"
+msgstr "Now"
+
+#: inc/admin.php:377
+msgid "%s before"
+msgstr "%s before"
+
+#: inc/admin.php:374
+msgid "%d hour"
+msgstr "%d hour"
+
+#: inc/admin.php:372
+msgid "%d minute"
+msgstr "%d minute"
+
+#: inc/admin.php:370
+msgid "%d second"
+msgstr "%d second"
+
+#: inc/admin.php:367
+msgid "%d hours"
+msgstr "%d hours"
+
+#: inc/admin.php:365
+msgid "%d minutes"
+msgstr "%d minutes"
+
+#: inc/admin.php:363
+msgid "%d seconds"
+msgstr "%d seconds"
+
+#: inc/admin.php:359
+msgid "Page Builder doesn't know about this widget."
+msgstr "Page Builder doesn't know about this widget."
+
+#: inc/admin.php:358
+msgid "Missing Widget"
+msgstr "Missing Widget"
+
+#: inc/admin.php:331
+msgid "All Widgets"
+msgstr "All Widgets"
+
+#: inc/admin.php:658 inc/home.php:26
+msgid "Home Page"
+msgstr "Home Page"
+
+#: inc/home.php:25
+msgid "Custom Home Page Builder"
+msgstr "Custom Home Page Builder"
+
+#: settings/tpl/settings.php:84
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: settings/tpl/settings.php:30
+msgid "Settings Saved"
+msgstr "Settings Saved"
+
+#: settings/tpl/settings.php:12
+msgid "Search Settings"
+msgstr "Search Settings"
+
+#: settings/tpl/help.php:6
+msgid "Please read the 1{settings guide} of the Page Builder documentation for help."
+msgstr "Please read the 1{settings guide} of the Page Builder documentation for help."
+
+#: inc/settings.php:444
+msgid "Copy content from Page Builder to post content."
+msgstr "Copy content from Page Builder to post content."
+
+#: inc/settings.php:443
+msgid "Copy Content"
+msgstr "Copy Content"
+
+#: inc/settings.php:437
+msgid "Content"
+msgstr "Content"
+
+#: inc/settings.php:430
+msgid "The container used for the full width layout."
+msgstr "The container used for the full width layout."
+
+#: inc/settings.php:429
+msgid "Full Width Container"
+msgstr "Full Width Container"
+
+#: inc/settings.php:423
+msgid "Default spacing between columns in each row."
+msgstr "Default spacing between columns in each row."
+
+#: inc/settings.php:422
+msgid "Row Gutter"
+msgstr "Row Gutter"
+
+#: inc/settings.php:403
+msgid "Device width, in pixels, to collapse into a mobile view ."
+msgstr "Device width, in pixels, to collapse into a mobile view ."
+
+#: inc/settings.php:402
+msgid "Mobile Width"
+msgstr "Mobile Width"
+
+#: inc/settings.php:372
+msgid "Collapse widgets, rows and columns on mobile devices."
+msgstr "Collapse widgets, rows and columns on mobile devices."
+
+#: inc/settings.php:371
+msgid "Responsive Layout"
+msgstr "Responsive Layout"
+
+#: inc/settings.php:351
+msgid "Display recommend widgets in Page Builder add widget dialog."
+msgstr "Display recommend widgets in Page Builder add widget dialogue."
+
+#: inc/settings.php:345
+msgid "Load legacy widgets from Page Builder 1."
+msgstr "Load legacy widgets from Page Builder 1."
+
+#: inc/settings.php:344
+msgid "Legacy Bundled Widgets"
+msgstr "Legacy Bundled Widgets"
+
+#: inc/settings.php:333
+msgid "The HTML used for widget titles. {{title}} is replaced with the widget title."
+msgstr "The HTML used for widget titles. {{title}} is replaced with the widget title."
+
+#: inc/settings.php:332
+msgid "Widget Title HTML"
+msgstr "Widget Title HTML"
+
+#: inc/settings.php:326
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/settings.php:248
+msgid "Post Types"
+msgstr "Post Types"
+
+#: inc/settings.php:242
+msgid "General"
+msgstr "General"
+
+#: inc/settings.php:226
+msgid "Page Builder Settings"
+msgstr "Page Builder Settings"
+
+#: inc/admin.php:179 inc/admin.php:575 inc/admin.php:1224 inc/admin.php:1229
+#: inc/settings.php:199 tpl/js-templates.php:197
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: inc/admin.php:1479 inc/admin.php:1526 inc/settings.php:199
+#: settings/tpl/settings.php:9
+msgid "SiteOrigin Page Builder"
+msgstr "SiteOrigin Page Builder"
+
+#: inc/admin-widget-dialog.php:185 inc/settings.php:350
+msgid "Recommended Widgets"
+msgstr "Recommended Widgets"
+
+#: inc/admin-widget-dialog.php:177
+msgid "BBPress"
+msgstr "BBPress"
+
+#: inc/admin-widget-dialog.php:166
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: inc/admin-widget-dialog.php:155
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin-widget-dialog.php:145
+msgid "WordPress Widgets"
+msgstr "WordPress Widgets"
+
+#: inc/admin-widget-dialog.php:137
+msgid "You can enable the legacy (PB) widgets in the 1{Page Builder settings}."
+msgstr "You can enable the legacy (PB) widgets in the 1{Page Builder settings}."
+
+#: inc/admin-widget-dialog.php:129
+msgid "Page Builder Widgets"
+msgstr "Page Builder Widgets"
+
+#: inc/admin-widget-dialog.php:121
+msgid "Install the 1{Widgets Bundle} to get extra widgets."
+msgstr "Install the 1{Widgets Bundle} to get extra widgets."
+
+#: inc/admin-widget-dialog.php:114
+msgid "Enable more widgets in the 1{Widgets Bundle settings}."
+msgstr "Enable more widgets in the 1{Widgets Bundle settings}."
+
+#: inc/admin-widget-dialog.php:99 widgets/widgets.php:164
+msgid "Widgets Bundle"
+msgstr "Widgets Bundle"
+
+#: inc/data/widgets-bundle.php:68
+msgid "Display your posts as a carousel."
+msgstr "Display your posts as a carousel."
+
+#: inc/data/widgets-bundle.php:67
+msgid "SiteOrigin Post Carousel"
+msgstr "SiteOrigin Post Carousel"
+
+#: inc/data/widgets-bundle.php:56
+msgid "Display site features as a collection of icons."
+msgstr "Display site features as a collection of icons."
+
+#: inc/data/widgets-bundle.php:55
+msgid "SiteOrigin Features"
+msgstr "SiteOrigin Features"
+
+#: inc/data/widgets-bundle.php:44
+msgid "A basic slider widget."
+msgstr "A basic slider widget."
+
+#: inc/data/widgets-bundle.php:43
+msgid "SiteOrigin Slider"
+msgstr "SiteOrigin Slider"
+
+#: inc/data/widgets-bundle.php:32
+msgid "Choose images from your media library."
+msgstr "Choose images from your media library."
+
+#: inc/data/widgets-bundle.php:31
+msgid "SiteOrigin Image"
+msgstr "SiteOrigin Image"
+
+#: inc/data/widgets-bundle.php:20 widgets/widgets/button/button.php:8
+msgid "A simple button"
+msgstr "A simple button"
+
+#: inc/data/widgets-bundle.php:19
+msgid "SiteOrigin Button"
+msgstr "SiteOrigin Button"
+
+#: inc/admin-widget-dialog.php:120 inc/data/widgets-bundle.php:11
+#: inc/data/widgets-bundle.php:23 inc/data/widgets-bundle.php:35
+#: inc/data/widgets-bundle.php:47 inc/data/widgets-bundle.php:59
+#: inc/data/widgets-bundle.php:71
+msgid "SiteOrigin Widgets Bundle"
+msgstr "SiteOrigin Widgets Bundle"
+
+#: inc/data/widgets-bundle.php:8
+msgid "A rich text editor"
+msgstr "A rich text editor"
+
+#: inc/data/widgets-bundle.php:7
+msgid "SiteOrigin Editor"
+msgstr "SiteOrigin Editor"
+
+#: inc/styles-admin.php:273 inc/settings.php:503
+msgid "Enabled"
+msgstr "Enabled"
+
+#: inc/styles-admin.php:253
+msgid "Remove"
+msgstr "Remove"
+
+#: inc/styles-admin.php:248
+msgid "Select Image"
+msgstr "Select Image"
+
+#: inc/styles-admin.php:106
+msgid "Theme"
+msgstr "Theme"
+
+#: inc/styles-admin.php:96
+msgid "Design"
+msgstr "Design"
+
+#: inc/styles-admin.php:88 inc/settings.php:363
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/styles-admin.php:84
+msgid "Attributes"
+msgstr "Attributes"
+
+#: inc/styles-admin.php:55
+msgid "Widget Styles"
+msgstr "Widget Styles"
+
+#: inc/styles-admin.php:46
+msgid "Row Styles"
+msgstr "Row Styles"
+
+#: inc/revisions.php:83
+msgid "Page Builder Content"
+msgstr "Page Builder Content"
+
+#: inc/admin-widgets-bundle.php:77
+msgid "Installing %s"
+msgstr "Installing %s"
+
+#: inc/admin-widgets-bundle.php:19 inc/admin-widgets-bundle.php:20
+msgid "Install Page Builder Plugin"
+msgstr "Install Page Builder Plugin"
+
+#: inc/styles.php:358
+msgid "Color of text inside this widget."
+msgstr "Colour of text inside this widget."
+
+#: inc/styles.php:315 inc/styles.php:355
+msgid "Font Color"
+msgstr "Font Colour"
+
+#: inc/styles.php:173
+msgid "Border color of the %s."
+msgstr "Border colour of the %s."
+
+#: inc/styles.php:170
+msgid "Border Color"
+msgstr "Border Colour"
+
+#: inc/styles.php:165
+msgid "How the background image is displayed."
+msgstr "How the background image is displayed."
+
+#: inc/styles.php:162
+msgid "Parallax"
+msgstr "Parallax"
+
+#: inc/styles.php:159
+msgid "Centered, with original size"
+msgstr "Centred, with original size"
+
+#: inc/styles.php:158
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/styles.php:157
+msgid "Tiled Image"
+msgstr "Tiled Image"
+
+#: inc/styles.php:153
+msgid "Background Image Display"
+msgstr "Background Image Display"
+
+#: inc/styles.php:145
+msgid "Background Image"
+msgstr "Background Image"
+
+#: inc/styles.php:140
+msgid "Background color of the %s."
+msgstr "Background colour of the %s."
+
+#: inc/styles.php:137
+msgid "Background Color"
+msgstr "Background Colour"
+
+#: inc/styles.php:224
+msgid "Full Width Stretched"
+msgstr "Full Width Stretched"
+
+#: inc/styles.php:223
+msgid "Full Width"
+msgstr "Full Width"
+
+#: inc/styles.php:222 inc/styles.php:235
+msgid "Standard"
+msgstr "Standard"
+
+#: inc/styles.php:218
+msgid "Row Layout"
+msgstr "Row Layout"
+
+#: inc/styles.php:115
+msgid "Padding"
+msgstr "Padding"
+
+#: inc/styles.php:210
+msgid "Gutter"
+msgstr "Gutter"
+
+#: inc/styles.php:202
+msgid "Bottom Margin"
+msgstr "Bottom Margin"
+
+#: inc/styles.php:195
+msgid "Class added to all cells in this row."
+msgstr "Class added to all cells in this row."
+
+#: inc/styles.php:192
+msgid "Cell Class"
+msgstr "Cell Class"
+
+#: inc/styles.php:92
+msgid "A CSS class"
+msgstr "A CSS class"

@@ -1,0 +1,376 @@
+/*
+Theme Name: The Schema
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+
+.logo-text .site-text-wrap {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.menu-wrap .main-navigation {
+	text-align: left;
+}
+
+.main-navigation ul.nav-menu > li:nth-last-of-type(1) > ul, 
+.main-navigation ul.nav-menu > li:nth-last-of-type(2) > ul, 
+.main-navigation ul.nav-menu > li:nth-last-of-type(3) > ul {
+	left: 0;
+	right: auto;
+}
+
+.main-navigation ul.nav-menu > li:nth-last-of-type(1) > ul ul, 
+.main-navigation ul.nav-menu > li:nth-last-of-type(2) > ul ul, 
+.main-navigation ul.nav-menu > li:nth-last-of-type(3) > ul ul {
+	left: 100%;
+	right: auto;
+}
+
+.menu-wrap .main-navigation + .header-search {
+	border-left: none;
+	padding-left: 0;
+	border-right: 1px solid rgba(0,0,0,0.1);
+	padding-right: 20px;
+}
+
+.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"], 
+.banner-caption .blossomthemes-email-newsletter-wrapper form input[type="email"], 
+.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"], 
+.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[type="email"] {
+	margin-right: 0;
+	margin-left: 1.5%;
+}
+
+.widget_raratheme_featured_page_widget .widget-featured-holder {
+    text-align: right !important;
+}
+
+.about-section .widget_raratheme_featured_page_widget .text-holder {
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+.widget_raratheme_client_logo_widget .image-holder {
+	border-right: none;
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+.widget_raratheme_client_logo_widget .image-holder:nth-child(3n) {
+	border-left: none;
+}
+
+.widget.widget_recent_entries ul li, 
+.widget.widget_recent_comments ul li, 
+.widget.widget_archive ul li, 
+.widget.widget_categories ul li, 
+.widget.widget_pages ul li, 
+.widget_nav_menu ul li {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.widget.widget_recent_entries ul li::before, 
+.widget.widget_recent_comments ul li::before, 
+.widget.widget_archive ul li::before, 
+.widget.widget_categories ul li::before, 
+.widget.widget_pages ul li::before, 
+.widget_nav_menu ul li::before {
+	left: auto;
+	right: 0;
+}
+
+.entry-meta > span {
+	margin-right: 0;
+	padding-right: 0;
+	margin-left: 12px;
+	padding-left: 12px;
+}
+
+.entry-meta > span:last-child {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.entry-meta > span::after {
+	right: auto;
+	left: -3px;
+}
+
+a.btn-readmore {
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+.btn-readmore::before {
+	left: auto;
+	right: 0;
+}
+
+a.btn-readmore::after {
+	right: auto;
+	left: -25px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.post a.btn-readmore + .edit-link {
+	margin-left: 0;
+	margin-right: 30px;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper .text-holder {
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"], 
+.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"] {
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+.top-footer .col {
+	margin-right: 0;
+	margin-left: 3%;
+}
+
+.top-footer .col:last-child {
+	margin-left: 0;
+}
+
+.bottom-footer .copyright {
+	float: right;
+}
+
+.bottom-footer .footer-social {
+	float: left;
+	text-align: left;
+}
+
+.social-list li {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.social-list li:first-child {
+	padding-right: 0;
+}
+
+.list-view article .post-content-wrap {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.sticky-meta .site-main {
+	padding-left: 0;
+	padding-right: 180px;
+}
+
+.sticky-meta > .site-main .entry-meta {
+	left: auto;
+	right: 0;
+}
+
+.author-content-wrap {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.author-content-wrap .page-title {
+    text-align: right;
+}
+
+.comment-navigation .nav-previous, 
+.posts-navigation .nav-previous, 
+.post-navigation .nav-previous {
+	float: right;
+}
+
+.posts-navigation .nav-previous a {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.posts-navigation .nav-previous a svg {
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.comment-navigation .nav-next, 
+.posts-navigation .nav-next, 
+.post-navigation .nav-next {
+	float: left;
+	text-align: left;
+}
+
+.posts-navigation .nav-next a {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+.posts-navigation .nav-next a svg {
+	right: auto;
+	left: 0;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.additional-posts .block .entry-meta, 
+.additional-posts .block .entry-header {
+    float: right;
+}
+
+.additional-posts .block .entry-header .entry-title {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.reply a {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.reply a::before {
+    left: auto;
+    right: 0;
+    top: 7px;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.comments-area .comment-body {
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.comment-author img {
+    left: auto;
+    right: -70px;
+}
+
+.comment-list li.bypostauthor > .comment-body .comment-author::before {
+    left: auto;
+    right: -70px;
+}
+
+.comments-area ol.children {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.comment-respond form label[for="wp-comment-cookies-consent"] {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.search .content-area .page-header .page-title {
+    text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+	.bottom-footer .copyright {
+		float: none;
+	}
+
+	.bottom-footer .footer-social {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo-text .site-text-wrap, 
+	.about-section .widget_raratheme_featured_page_widget .text-holder, 
+	.list-view article .post-content-wrap, 
+	.sticky-meta .site-main {
+		padding-right: 0;
+	}
+
+	.menu-wrap .main-navigation + .header-search {
+		padding-right: 0;
+		border-right: none;
+	}
+
+	.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"], 
+	.banner-caption .blossomthemes-email-newsletter-wrapper form input[type="email"], 
+	.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+	.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"], 
+	.banner-caption .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[type="email"], 
+	.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"], 
+	.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-fname"] + input[name="subscribe-email"], 
+	.newsletter-section .blossomthemes-email-newsletter-wrapper form input[name="subscribe-email"], 
+	.top-footer .col {
+		margin-left: 0;
+	}
+
+	.widget_raratheme_client_logo_widget .image-holder:nth-child(3n) {
+		border-left: 1px solid rgba(0,0,0,0.1);
+	}
+
+	.widget_raratheme_client_logo_widget .image-holder:nth-child(2n) {
+		border-left: none;
+	}
+
+	.newsletter-section .blossomthemes-email-newsletter-wrapper .text-holder {
+		padding-left: 0;
+	}
+
+	.comment-navigation .nav-previous, 
+	.posts-navigation .nav-previous, 
+	.post-navigation .nav-previous, 
+	.comment-navigation .nav-next, 
+	.posts-navigation .nav-next, 
+	.post-navigation .nav-next {
+		float: none;
+	}
+
+	.sticky-meta > .site-main .entry-meta {
+		text-align: right;
+	}
+
+	.single .sticky-inner div > span {
+	    margin-right: 0;
+	    margin-left: 20px;
+	}
+
+	.single .sticky-inner div > span:last-child {
+		margin-left: 0;
+	}
+
+	.additional-posts .block .entry-header .entry-title {
+		padding-left: 10px;
+	}
+
+	.author-content-wrap {
+		padding-right: 0;
+	}
+
+	.comments-area .comment-body {
+		padding-right: 0;
+	}
+
+	.comments-area ol.children {
+		margin-right: 20px;
+	}
+}

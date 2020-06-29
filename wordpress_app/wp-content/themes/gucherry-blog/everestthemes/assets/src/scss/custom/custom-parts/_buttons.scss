@@ -1,0 +1,73 @@
+
+// read more button 
+
+
+.read-more-button {
+
+    position:relative;
+    padding-left: 40px;
+    line-height:1;
+    @include transation_delay();
+}
+
+.read-more-button:before {
+
+    content:'';
+    width:35px;
+    height:1px;
+    position:absolute;
+    left:0;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+    z-index: 2;
+    @include transation_delay();
+}
+
+.read-more-button:hover {
+
+    padding-left: 70px;
+}
+
+.read-more-button:hover:before {
+    
+    content:'';
+    width:60px;
+}
+
+
+// GuCherry blog button primary 
+
+.gc-button-primary {
+	
+	display:inline-block;
+	position: relative;
+	z-index:5;
+	padding:14px 40px;
+	background: transparent;
+	overflow:hidden;
+	@include border-radius(25px);
+}
+
+.gc-button-primary.small {
+    
+    padding: 10px 25px;
+}
+
+.gc-button-primary.medium {
+
+	padding:14px 50px;
+}
+
+.gc-button-primary.big {
+
+	padding:14px 60px;
+}
+
+.gc-button-primary.large {
+
+	padding:14px 80px;
+}

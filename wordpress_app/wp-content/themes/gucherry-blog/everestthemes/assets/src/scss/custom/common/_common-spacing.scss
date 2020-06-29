@@ -1,0 +1,156 @@
+
+// All common spacings 
+// Will re-do spacing on media query ( 1024px, 768px & 574px )
+
+
+// margin
+
+q p,
+blockquote p,
+.hentry,
+.excerpt p,
+.author-bio p,
+.page-title h1,
+.page-title h2,
+.page-title h3,
+.copyright-info p,
+.mastheader .widget,
+.no-results.not-found h1,
+.category-description p,
+.widget .widget-title h3,
+.author-box .author-desc p,
+.gc-banner-s1 .post-title h2,
+.related-posts .post-title h4,
+.gc-post-widget .post-title h4,
+.related-posts .section-title h3,
+.gc-blog-list-s1 .post-title h3,
+.error-page-entry .error-message p,
+.author-box .top-wrap .author-name h3,
+.gc-blog-list-s1 .bottom-block .entry-metas,
+.gc-post-widget .widget-container article:last-child,
+.single-page-s1 .single-page-entry .related-posts .entry-metas {
+
+	margin-bottom: 0;
+}
+
+.gc-post-widget .post-title,
+.related-posts .post-title,
+.author-box .top-wrap .author-name {
+
+	margin-bottom: 10px;
+}
+
+
+.gc-banner-s1 .post-title,
+.single-page-s1 .page-title,
+.single-page-s1 .entry-cats,
+.no-results.not-found .page-header   {
+
+	margin-bottom: 15px;
+} 
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.gc-banner-s1 .entry-cats,
+.gc-banner-s1 .entry-metas,
+.gc-blog-list-s1 .entry-cats,
+.gc-blog-list-s1 .post-title,
+.gc-blog-list-s1 .entry-metas,
+.gc-author-widget .author-bio {
+
+	margin-bottom: 20px;
+}
+
+.page-title,
+.editor-entry,
+.gc-breadcrumb,
+.widget .widget-title,
+.related-posts article,
+.gc-blog-list-s1 .excerpt,
+.related-posts .section-title,
+.gc-author-widget .author-thumb,
+.gc-blog-list-s1 .is-post-format-block,
+.gc-post-widget .widget-container article,
+.single-page-s1 .single-page-entry .entry-metas {
+
+	margin-bottom: 30px;
+}
+
+.widget,
+.entry-tags,
+.mastbanner,
+.mastheader,
+.author-box,
+.related-posts,
+.post-navigation,
+.category-description,
+.footer .footer-mid .widget,
+.primary-widget-area .widget,
+.secondary-widget-area .widget,
+.error-page-entry .error-message,
+.gc-blog-list-s1 .bottom-block .excerpt,
+.single-page-s1 .single-page-entry .featured-image,
+.default-page-s1 .default-page-entry .featured-image {
+
+	margin-bottom: 40px;
+}
+
+.footer .footer-mid .widget,
+.footer .footer-bottom {
+
+	margin-top: 40px;
+}
+
+.gc-blog-list-s1 article,
+.main-content-area-wrap {
+
+	margin-bottom: 50px;
+}
+
+
+// padding 
+
+
+.gc-blog-list-s1 article:last-child,
+.gc-post-widget .widget-container article:last-child {
+
+	padding-bottom:0;
+}
+
+
+.related-posts .section-title {
+
+	padding-bottom:10px;
+}
+
+.gc-post-widget .widget-container article {
+
+	padding-bottom: 30px;
+}
+
+.author-box {
+
+	padding:30px;
+}
+
+.footer .site-identity,
+.gc-blog-list-s1 article {
+
+	padding-bottom: 50px;
+}
+
+.error-page-entry {
+
+	padding:60px 0;
+}
+
+.footer .site-identity {
+
+	padding-top: 70px;
+}
+
+

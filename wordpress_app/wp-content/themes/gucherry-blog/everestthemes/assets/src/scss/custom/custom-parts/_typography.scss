@@ -1,0 +1,193 @@
+//  General Typo graphy setup
+
+body,
+button,
+input,
+select,
+textarea {
+
+    color: $primary_color;
+    font-family: $secondary_font_family;
+    font-size: $body_font_size;
+    line-height: $body_line_height;
+    font-weight: $body_font_weight;
+    letter-spacing:$body_letter_spacing;
+} 
+
+body {
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    word-break: break-word;
+    @include transation_delay();
+}
+
+q,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+blockquote  {
+
+	clear: both;
+	line-height:$body_heading_line_height;
+	font-family: $primary_font_family;
+	font-weight: $body_heading_font_weight;
+	padding: 0;
+	margin:0;
+	letter-spacing: $heading_letter_spacing;
+}
+
+
+h1 {
+
+	font-size: 46px;
+}
+
+h2 {
+
+	font-size:38px;
+}
+
+h3 {
+
+	font-size:34px;
+}
+
+h4 {
+
+	font-size:28px;
+}
+
+h5 {
+
+	font-size:24px;
+}
+
+h6 {
+
+	font-size:20px;
+}
+
+
+p {
+
+    margin-bottom: 15px;
+}
+
+b,
+strong {
+
+    font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+
+    font-style: italic;
+}
+
+blockquote,
+q {
+    position: relative;
+    display:block;
+    padding: 80px 40px 40px 40px;
+    @include border-radius(10px);
+    text-align:center;
+    color:#656565;
+    background:#fffcde;
+    line-height: 1.5;
+    letter-spacing:0.25px;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+blockquote:before,
+q:before {
+
+    content: "\e67e";
+    font-family: 'themify';
+    font-size:32px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    line-height:1;  
+}
+
+
+address {
+
+    margin: 0 0 15px;
+}
+
+pre {
+
+    background: #eeeeee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+
+    border-bottom: 1px dotted $border_color;
+    cursor: help;
+}
+
+mark,
+ins {
+
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+sup,
+sub {
+	position: relative;
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sup {
+
+    bottom: 1ex;
+}
+
+sub {
+
+    top: .5ex;
+}
+
+small {
+
+    font-size: 75%;
+}
+
+big {
+
+    font-size: 125%;
+}

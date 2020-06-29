@@ -46,6 +46,7 @@ $wpdb->insert( $table_name, array(
    <form action="" method="post">
     <table>
         <tr>
+<<<<<<< HEAD
           <td><label style="font-size:20px" for="inputtxt">Firstname</label></td>
           <td><input style="width:170%" type="text" name="inputtxt" id="inputtxt"  required/><br></td>
         </tr>
@@ -57,6 +58,19 @@ $wpdb->insert( $table_name, array(
           <td><label style="font-size:20px" for="option"> options </label></td>
           <td>
             <select style="width:170%" name="option" id="option" required>
+=======
+          <td><label for="inputtxt">Firstname:</label></td>
+          <td><input type="text" name="inputtxt" id="inputtxt"  required/><br></td>
+        </tr>
+        <tr>
+          <td><label for="inputarea">Texte Area:</label></td>
+          <td><textarea type="text" name="inputarea" id="inputarea"  required></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="option"> options :</label></td>
+          <td>
+            <select name="option" id="option" required>
+>>>>>>> 920a72cb19f6fc3e69725a4c35fa14d72614184d
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -64,7 +78,11 @@ $wpdb->insert( $table_name, array(
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <br><br><td colspan="2" ><input type="submit" class="button button-primary button-hero load-customize hide-if-no-customize" name="submit"/></td>
+=======
+          <td colspan="2" ><center><hr><input type="submit" name="submit"/></center></td>
+>>>>>>> 920a72cb19f6fc3e69725a4c35fa14d72614184d
         </tr>
       </table>
   </form>
@@ -101,7 +119,11 @@ if(!empty($results))
                 <th>Input option</th>
             </tr>
         </thead>
+<<<<<<< HEAD
         <tbody >
+=======
+        <tbody>
+>>>>>>> 920a72cb19f6fc3e69725a4c35fa14d72614184d
     <?php
           
     foreach($results as $row){   

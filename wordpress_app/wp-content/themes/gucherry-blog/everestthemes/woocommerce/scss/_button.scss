@@ -1,0 +1,40 @@
+.woocommerce {
+  #respond input#submit,
+  a.button,
+  button.button,
+  input.button {
+    font-weight: 400;
+    padding: .618em .7em;
+  }
+}
+
+.woocommerce {
+  #respond input#submit.alt,
+  a.button.alt,
+  button.button.alt,
+  input.button.alt {
+    // background-color: #17c188;
+
+    &:hover {
+      // background-color: inherit;
+    }
+
+  }
+}
+
+.woocommerce {
+  #respond input#submit.disabled,
+  #respond input#submit:disabled,
+  #respond input#submit:disabled[disabled],
+  a.button.disabled,
+  a.button:disabled,
+  a.button:disabled[disabled],
+  button.button.disabled,
+  button.button:disabled,
+  button.button:disabled[disabled],
+  input.button.disabled,
+  input.button:disabled,
+  input.button:disabled[disabled] {
+
+  }
+}

@@ -1,0 +1,46 @@
+.woocommerce .woocommerce-pagination,
+.woocommerce-page .woocommerce-pagination {
+
+  text-align: left !important;
+
+  ul.page-numbers {
+    // border-color: #d0dbe6;
+  }
+
+  ul.page-numbers li {
+
+    // background-color: #fff;
+    // border-color: #ccc;
+
+    > span.current {
+      // background-color: #b0c9e3;
+      background-color: #EC521E;
+      color: #fff;
+    }
+
+    > span,
+    > a.page-numbers {
+      padding: 11px 17px;
+
+      &.next,
+      &.prev {
+        border-radius: 0;
+        // background-color: #fff;
+      }
+
+    }
+
+    > a.page-numbers,
+    > a.page-numbers.next,
+    > a.page-numbers.prev {
+      &:hover {
+        // background-color: #b0c9e3;
+        // background-color: #29c58b;
+        color: #fff;
+      }
+    }
+
+
+
+  }
+}

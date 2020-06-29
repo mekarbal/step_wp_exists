@@ -1,0 +1,381 @@
+
+// color white 
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.gc-button-primary:hover,
+.is-post-format span,
+.gc-social-widget .social-icons ul li a,
+.gc-pagination nav.pagination .nav-links .page-numbers,
+.footer .footer-bottom a:hover,
+.calendar_wrap caption,
+.jetpack_subscription_widget input[type="submit"]  {
+
+	color:$white;
+}
+
+
+// special colors 
+
+
+.entry-metas ul li,
+.entry-metas ul li a,
+.entry-metas ul li span,
+.post-navigation .nav-links span,
+.widget_recent_entries .post-date,
+.comments-area .comment-body .comment-metadata a,
+.comments-area .comment-body .reply a {
+
+	color:#8c8b8b;
+}
+
+
+// color primary 
+
+
+a,
+.post-title a:hover,
+.mastheader .canvas-trigger,
+.mastheader .search-trigger,
+.canvas-sidebar .close-canvas,
+.widget_search form .search-submit,
+.search-wrapper form .search-submit,
+.gc-pagination nav.pagination .nav-links .page-numbers.next,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item:before  {
+
+	color:$primary_color;
+}
+
+
+// secondary color 
+
+a:hover,
+.editor-entry a,
+.entry-metas ul li a:hover,
+#gc-backtotop .caption,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_recent_entries a:hover,
+.widget_meta a:hover,
+.widget_product_categories a:hover,
+.widget_rss li a:hover,
+.widget_pages li a:hover,
+.widget_nav_menu li a:hover,
+.widget_rss ul li a,
+.comments-area .comment-body .reply a:hover,
+.comments-area .comment-body .reply a:focus,
+.woocommerce-widget-layered-nav ul li a:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover {
+
+	color:$secondary_color;
+}
+
+
+.widget_rss ul li a:hover {
+
+	color:$third_color;
+}
+
+
+// border color 
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.footer.secondary-widget-area .widget,
+.gc-blog-list-s1 article:last-child,
+.gc-post-widget .widget-container article:last-child {
+
+	border:none;
+}
+
+textarea,
+.author-box,
+.related-posts,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+.category-description,
+.post-navigation .nav-links,
+.secondary-widget-area .widget,
+.calendar_wrap table th,
+.calendar_wrap table td,
+.search-wrapper form input,
+.comments-area .comment-body,
+.comment-respond,
+.wp-block-tag-cloud a,
+.widget_tag_cloud .tagcloud a,
+.jetpack_subscription_widget input[type="email"]   {
+
+	border:1px solid $border_color;
+}
+
+.entry-tags .post-tags a {
+
+	border:1px solid $secondary_color;
+}
+
+
+.gc-button-primary  {
+
+	border:2px solid $secondary_color;
+}
+
+.gc-blog-list-s1 article,
+.gc-post-widget .widget-container article,
+.woocommerce .widget_shopping_cart .cart_list li, 
+.woocommerce.widget_shopping_cart .cart_list li,
+.woocommerce ul.product_list_widget li,
+.comments-area .comment-body .comment-meta  {
+
+	border-bottom:1px solid $border_color;
+}
+
+.gc-header-s1 .bottom-header {
+
+	border-top:1px solid $border_color;
+	border-bottom:1px solid $border_color;
+}
+
+.widget_product_categories ul li ul   {
+
+	border-top:1px solid $border_color;
+}
+
+.post-navigation .nav-previous {
+
+	border-right:1px solid $border_color;
+}
+
+
+.widget_archive li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_meta li,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu li a,
+.widget_product_categories li,
+.woocommerce-widget-layered-nav ul li,
+.author-box .top-wrap,
+.related-posts .section-title,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item  {
+	
+	border-bottom:1px solid $border_color;
+}
+
+
+// background 
+
+
+.read-more-button::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.next::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev::before  {
+
+	content:'';
+	background-color:$primary_color;
+}
+
+.gc-banner-s1 .owl-dots .owl-dot {
+
+	background-color:$primary_color;
+}
+
+.entry-cats ul li a:before,
+.read-more-button:hover:before,
+#gc-backtotop .caption:after,
+.entry-cats ul li:nth-child(n+11) a:before,
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover::before {
+
+	content:'';
+	background-color:$secondary_color;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.gc-button-primary:hover,
+.calendar_wrap caption,
+.is-post-format span,
+.gc-banner-s1 .owl-dots .owl-dot.active,
+.gc-social-widget .social-icons ul li a:hover,
+.gc-pagination nav.pagination .nav-links .page-numbers,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, 
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.jetpack_subscription_widget input[type="submit"]   {
+
+	background-color:$secondary_color;
+}
+
+
+.jetpack_subscription_widget input[type="submit"]:hover {
+
+	background-color:$third_color;
+}
+
+
+// footer 
+
+
+.footer .widget .widget-title h3 {
+
+	color:$dark_footer_heading_color;
+}
+
+.footer .gc-post-widget .post-title a:hover {
+
+	color:$primary_color;
+}
+
+.footer,
+.footer a,
+.footer .widget_rss ul li a,
+.footer .footer-bottom p,
+.footer input[type="text"], 
+.footer input[type="email"], 
+.footer input[type="url"], 
+.footer input[type="password"], 
+.footer input[type="search"],
+.footer .gc-post-widget .post-title a,
+.footer .gc-post-widget .entry-metas ul li,
+.footer .gc-post-widget .entry-metas ul li a,
+.footer .gc-post-widget .entry-metas ul li span {
+
+	color:$dark_footer_links_color;
+}
+
+.footer a:hover,
+.footer .footer-bottom a,
+.footer .widget_rss ul li a:hover,
+.footer .widget_tag_cloud .tagcloud a:hover,
+.footer .widget_nav_menu li a:hover,
+.footer .widget_pages li a:hover,
+.footer .nice-select .option:hover  {
+
+	color:$dark_footer_hover_color; // Hover color
+}
+
+.footer .footer-inner {
+
+	background:$dark_footer_bg;
+}
+
+.footer .footer-bottom {
+
+	background:$dark_footer_bottom_bg;
+}
+
+
+.footer .nice-select,
+.footer button, 
+.footer input[type="button"], 
+.footer input[type="reset"], 
+.footer input[type="submit"],
+.footer .wpcf7 input[type="submit"], 
+.footer .wpcf7 input[type="button"],
+.footer input[type="text"], 
+.footer input[type="email"], 
+.footer input[type="url"], 
+.footer input[type="password"], 
+.footer input[type="search"],
+.footer .calendar_wrap caption,
+.footer .nice-select .list,
+.footer .nice-select .option:hover, 
+.footer .nice-select .option.focus, 
+.footer .nice-select .option.selected.focus  {
+
+	background:$dark_footer_element_bg_color;
+}
+
+.footer .nice-select,
+.footer input[type="text"], 
+.footer input[type="email"], 
+.footer input[type="url"], 
+.footer input[type="password"], 
+.footer input[type="search"],
+.footer .widget .nice-select ul li:last-child,
+.footer .gc-post-widget .widget-container article:last-child {
+
+	border:none;
+}
+
+.footer textarea, 
+.footer input[type="text"], 
+.footer input[type="email"], 
+.footer input[type="url"], 
+.footer input[type="password"], 
+.footer input[type="search"], 
+.footer .calendar_wrap table th, 
+.footer .calendar_wrap table td, 
+.footer .search-wrapper form input {
+
+	border-color:$dark_footer_border_color;
+}
+
+.footer .widget .widget-title h3::before {
+
+	content:'';
+	border-left-color:$dark_footer_widget_title_border;
+}
+
+.footer .widget_tag_cloud .tagcloud a {
+
+	border:1px solid $dark_footer_border_color;
+}
+
+.footer .gc-blog-list-s1 article, 
+.footer .widget_rss li,
+.footer .widget_archive li, 
+.footer .widget_categories li, 
+.footer .widget_recent_entries li, 
+.footer .widget_meta li, 
+.footer .widget_recent_comments li, 
+.footer .widget_pages li, 
+.footer .widget_nav_menu li a, 
+.footer .widget_product_categories li, 
+.footer .woocommerce-widget-layered-nav ul li,
+.footer .gc-post-widget .widget-container article,
+.footer .widget_categories li,
+.footer .woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+
+	border-bottom-color:$dark_footer_border_color;
+}
+
+.footer .widget .nice-select ul li  {
+
+	border-bottom-color:$dark_footer_border_alt_color;
+}
+
+.footer .footer-top {
+
+	border-bottom:1px dotted $dark_footer_border_color; // dark black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

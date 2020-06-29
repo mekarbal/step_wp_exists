@@ -1,0 +1,614 @@
+
+.widget_archive ul,
+.widget_categories ul,
+.widget_recent_entries ul,
+.widget_meta ul,
+.widget_recent_comments ul,
+.widget_rss ul,
+.widget_pages ul,
+.widget_nav_menu ul,
+.widget_product_categories ul,
+.woocommerce-widget-layered-nav ul {
+
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list {
+
+    list-style:none;
+}
+
+.widget_product_categories ul {
+
+    margin-left: 0;
+}
+
+.widget_archive li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_meta li,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu li a,
+.widget_product_categories li,
+.woocommerce-widget-layered-nav ul li,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+
+    position: relative;
+    padding: 15px 0;
+    margin: 0;
+    //text-align:right;
+}
+
+
+.widget_archive li:last-child,
+.widget_categories li:last-child,
+.widget_recent_entries li:last-child,
+.widget_meta li:last-child,
+.widget_recent_comments li:last-child,
+.widget_rss li:last-child,
+.widget_pages li:last-child,
+.widget_nav_menu li:last-child,
+.widget_product_categories li:last-child,
+.widget_nav_menu>ul>li:last-child a,
+.woocommerce-widget-layered-nav ul li:last-child {
+
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.widget_archive ul li:first-child,
+.widget_categories ul li:first-child,
+.widget_product_categories ul li:first-child,
+.widget_pages ul li:first-child,
+.widget_meta ul li:first-child,
+.widget_rss li:first-child,
+.widget_recent_entries li:first-child,
+.widget_recent_comments li:first-child,
+.woocommerce-widget-layered-nav ul li:first-child {
+
+    padding-top: 0;
+}
+
+.widget_archive a,
+.widget_categories a,
+.widget_recent_entries a,
+.widget_meta a,
+.widget_recent_comments li,
+.widget_rss li,
+.widget_pages li,
+.widget_nav_menu a,
+.widget_product_categories a,
+.woocommerce-widget-layered-nav ul li a {
+
+    padding-left: 0;
+    position: relative;
+    float:none;
+    @include transation_delay();
+}
+
+
+.widget_archive ul li a, 
+.widget_categories ul li a, 
+.widget_product_categories ul li a, 
+.woocommerce-widget-layered-nav ul li a {
+
+    display:inline-block;
+    width: 80%;
+    float: none;
+}
+
+
+// Spacing ( pading left ) on widgets
+
+
+.widget_recent_entries a {
+
+    display: block;
+}
+
+.widget_recent_comments li a {
+
+    display: inline-block;
+}
+
+.widget_nav_menu li a {
+
+    padding-left: 0;
+    display: block;
+}
+
+
+// Align count values to right side 
+
+
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_product_categories ul li,
+.woocommerce-widget-layered-nav ul li {
+
+    text-align:left;
+} 
+
+.widget_archive ul li a,
+.widget_categories ul li a,
+.widget_product_categories ul li a,
+.woocommerce-widget-layered-nav ul li a {
+    
+    display:inline-block;
+    float:none;
+}
+
+
+
+.widget_nav_menu ul li ul,
+.widget_product_categories ul li ul,
+.widget_nav_menu ul li ul {
+
+    padding-left:20px;
+}
+
+.widget_product_categories ul li ul {
+
+    padding-top:20px;
+    margin-top:20px;
+}
+
+
+
+/*
+=======================================
+=
+= Nav menus widget
+=
+===============================================
+*/
+
+
+.widget_nav_menu ul.menu li:last-child a {
+
+    padding-bottom: 0;
+    border-bottom:none;
+}
+
+.widget_nav_menu ul.menu ul.sub-menu li:last-child a {
+
+    padding-bottom: 0;
+}
+
+
+
+/*
+=======================================
+=
+= Recent posts widget 
+=
+===============================================
+*/
+
+.widget_recent_entries .post-date {
+
+    display: block;
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+
+
+/*
+=======================================
+=
+= Archive widget
+=
+===============================================
+*/
+
+
+
+.widget_archive label {
+
+    display:block;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+=======================================
+=
+= Category widget
+=
+===============================================
+*/
+
+
+.widget_categories label {
+
+    display:block;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*
+=======================================
+=
+= Rss widget
+=
+===============================================
+*/
+
+
+.widget_rss .widget-title h3 img {
+
+    display:none;
+}
+
+
+
+/*
+=======================================
+=
+= Search widget 
+=
+===============================================
+*/
+
+
+.widget_search,
+.wp-block-search {
+
+    display:block;
+}
+
+.widget_search,
+.wp-block-search {
+    
+    display:block;
+    position:relative;
+    z-index:5;
+    left:auto;
+    top:auto;
+    right:auto;
+    box-shadow:none;
+    padding: 0;
+    border-top: none;
+    animation:none;
+    margin:0;
+}
+
+.wp-block-search,
+.widget_search form {
+    
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    border-top:none;
+    padding: 0;
+    animation:none;
+    box-shadow:none;
+    background:transparent;
+}
+
+.widget_search form input[type="search"] {
+
+    width:100%;
+    padding-left: 20px;
+    padding-right:30px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: none;
+    @include border-radius(4px);
+    background-color: transparent;
+}
+
+
+.widget_search form label {
+
+    flex:0 0 100%;
+    width:100%;
+}
+
+.widget_search form .search-submit {
+    
+    flex: 20px;
+    max-width: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left:auto;
+    top:50%;
+    right: 15px;
+    background: transparent;
+    transform: translateY(-50%);
+}
+
+.widget_search form .search-submit:focus {
+
+    outline:none;
+    border:none;
+}
+
+.widget_search form .search-submit:hover {
+
+    background:transparent;
+    border:none;
+}
+
+
+/*
+=======================================
+=
+= Calender widget
+=
+===============================================
+*/
+
+
+.calendar_wrap caption {
+
+    background: none repeat scroll 0 0 $secondary_color;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.calendar_wrap table {
+
+    border-collapse: collapse;
+    width: auto;
+}
+
+.calendar_wrap table th {
+
+    padding: 8px 0px;
+    text-align: center;
+    width: 5%
+}
+
+.calendar_wrap table td {
+
+    padding: 8px 0px;
+    width: 5%;
+    text-align: center;
+}
+
+.calendar_wrap table td#prev,
+.calendar_wrap table td#next {
+
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.calendar_wrap table td#next {
+
+    text-align: right;
+}
+
+
+
+/*
+=======================================
+=
+= Text widget
+=
+===============================================
+*/
+
+
+
+.secondary-widget-area {
+
+    .textwidget {
+
+        strong,
+        p,
+        em,
+        pre,
+        code,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+
+            display: block;
+            padding: 7px 0;
+        }
+
+        img {
+
+            display: block;
+            padding: 5px 0;
+        }
+
+        select {
+
+            display: block;
+            outline: none;
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+            border-radius: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            option {
+
+                display: block;
+                width:100%;
+                max-width: 100%;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+
+
+/*
+=======================================
+=
+= Tags cloud
+=
+===============================================
+*/
+
+.wp-block-tag-cloud,
+.widget_tag_cloud .tagcloud {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin:-5px -2px;
+}
+
+.wp-block-tag-cloud a,
+.widget_tag_cloud .tagcloud a {
+    
+    flex: 1 auto;
+    line-height: 1;
+    text-transform:inherit;
+    font-size:15px !important;
+    text-align:center;
+    letter-spacing:0;
+    padding: 12px 25px;
+    margin:2px;
+    font-weight:400;
+}
+
+
+/*
+========================================
+=
+= Woocommerce cart widget
+=
+====================================================
+*/
+
+.woocommerce ul.cart_list, 
+.woocommerce ul.product_list_widget {
+
+    @include flex_row_alt();
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li, 
+.woocommerce.widget_shopping_cart .cart_list li,
+.woocommerce ul.product_list_widget li {
+
+    @include flex_col(100%);
+    position:relative;
+    padding: 15px 0 15px 40px;
+}
+
+
+.woocommerce.widget_shopping_cart .cart_list li a.remove {
+
+    @include position_absolute(50%,unset,0,unset);
+
+}
+
+
+.woocommerce ul.cart_list li img, 
+.woocommerce ul.product_list_widget li img {
+
+    width:60px;
+}
+
+
+.woocommerce .widget_shopping_cart .total, 
+.woocommerce.widget_shopping_cart .total {
+
+    border:none;
+    margin: 20px 0;
+}
+
+.woocommerce .widget_shopping_cart .total strong, 
+.woocommerce.widget_shopping_cart .total strong {
+
+    font-weight:600;
+}
+
+
+/*
+========================================
+=
+= Woocommerce Top rated products widget
+=
+====================================================
+*/
+
+
+.woocommerce ul.product_list_widget li {
+
+    padding-left:0;
+}
+
+
+/*
+============================================
+=
+= Woocommerce filter by attribute widget
+=
+===========================================================
+*/
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+
+    position:relative;
+    padding-left:20px;
+} 
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::before {
+    
+    content:"\f111";
+    font-family: "Font Awesome 5 Free";
+    font-size:7px;
+    position:absolute;
+    left:0;
+    top:50%;
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+
+}
+
+
+/*
+============================================
+=
+= Woocommerce filter by price widget
+=
+===========================================================
+*/
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+
+    background-color:#585858;
+}

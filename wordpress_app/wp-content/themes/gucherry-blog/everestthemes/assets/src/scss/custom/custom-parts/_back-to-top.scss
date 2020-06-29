@@ -1,0 +1,51 @@
+
+#gc-backtotop {
+	
+	display: none;
+	position: fixed;
+    z-index: 9999999;
+    bottom: 40px;
+    right: 30px;
+    //@include transation_delay(); 
+
+}
+
+#gc-backtotop .caption {
+    
+    position: relative;
+    display:inline-block;
+    -moz-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -moz-transform: rotate(-90deg) translate(100%, 0);
+    -webkit-transform: rotate(-90deg) translate(100%, 0);
+    transform: rotate(-90deg) translate(100%, 0);
+    letter-spacing: 1px;
+    cursor: pointer;
+    @include transation_delay();
+}
+
+#gc-backtotop .caption:after {
+    
+    content: '';
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: -35px;
+    transform: translateY(-50%);
+     @include transation_delay();
+}
+
+#gc-backtotop .caption:hover:after {
+
+    content:'';
+    width:60px;
+    @include transation_delay();
+}
+
+#gc-backtotop .caption:hover {
+
+    padding-right: 35px;
+}

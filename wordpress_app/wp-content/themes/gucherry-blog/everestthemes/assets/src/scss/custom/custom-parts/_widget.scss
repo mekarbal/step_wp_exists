@@ -1,0 +1,254 @@
+
+// Everything about widgets
+
+
+.widget {
+
+	position: relative;
+}
+
+.widget .widget-title {
+
+	overflow-x: hidden;
+}
+
+.widget .widget-title h3 {
+	
+	position: relative;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.widget .widget-title h3::before {
+
+    content: '';
+    border-left: 4px solid $secondary_color;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+}
+
+.widget .widget-title h3::after {
+
+	content: "";
+    display: inline-block;
+    height: 0.7em;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid $border_color;
+    vertical-align: bottom;
+
+}
+
+.secondary-widget-area .widget {
+
+	padding:30px 20px;
+}
+
+.footer.secondary-widget-area .widget {
+
+	padding:0;
+}
+
+.footer .widget .widget-title h3::after {
+
+	content:'';
+	display:none;
+}
+
+
+
+/*
+=====================================
+=
+= author widget
+=
+=========================== 
+*/
+
+
+.gc-author-widget .author-thumb a {
+	
+	display:inline-block;
+}
+
+.gc-author-widget .author-thumb img {
+	
+	-ms-border-radius:100%; // fallback
+	-moz-border-radius:100%; // fallback
+	border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%; // actual
+}
+
+.gc-author-widget .widget-container {
+
+	text-align:center;
+}
+
+.gc-author-widget .author-bio p {
+	
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   -o-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   overflow: hidden; 
+}
+
+
+/*
+=====================================
+=
+=  Post widgets
+=
+=========================== 
+*/
+
+
+.gc-post-widget .gc-row {
+
+	margin:0;
+}
+
+.gc-post-widget .gc-col {
+
+	padding:0;
+}
+
+.gc-post-widget .gc-col.left {
+
+	flex:0 0 112px;
+	max-width:112px;
+}
+
+.gc-post-widget .gc-col.right {
+
+	flex:0 0 calc( 100% - 112px );
+	max-width: calc( 100% - 112px );
+	padding-left: 20px;
+}
+
+.gc-post-widget .thumb img {
+
+	display:block;
+	-ms-border-radius:100%; // fallback
+	-moz-border-radius:100%; // fallback
+	border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%; // actual
+}
+
+.gc-post-widget .is-post-format {
+
+	left: 0;
+    top: -5px;
+}
+
+.gc-post-widget .is-post-format span {
+
+	@include border-radius(100%);
+}
+
+
+// popular posts 
+
+
+.gc-post-widget.popular-s1 .thumb img {
+
+	@include border-radius(10px);
+}
+
+.gc-post-widget.popular-s1 .is-post-format {
+
+	left: -10px;
+    top: -15px;
+}
+
+
+
+/*
+=====================================
+=
+= social widget
+=
+=========================== 
+*/
+
+
+.gc-social-widget .social-icons ul {
+
+	margin:-4px -2px;
+} 
+
+.gc-social-widget .social-icons ul li a {
+
+	display:inline-block;
+	margin:4px 2px;
+	line-height: 40px;
+	width:40px;
+	height:40px;
+	padding:0;
+	text-align:center;
+	-ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+}
+
+.gc-social-widget .social-icons ul li.fb a {
+
+	background:$facebook;
+}
+
+.gc-social-widget .social-icons ul li.tw a {
+
+	background:$twitter;
+}
+
+.gc-social-widget .social-icons ul li.insta a {
+
+	background:$instagram;
+}
+
+.gc-social-widget .social-icons ul li.spotify a {
+
+	background:$spotify;
+}
+
+.gc-social-widget .social-icons ul li.pin a {
+
+	background:$pinterest;
+}
+
+.gc-social-widget .social-icons ul li.linkedin a {
+
+	background:$linkedin;
+}
+
+.gc-social-widget .social-icons ul li.vk a {
+
+	background:$vk;
+}
+
+.gc-social-widget .social-icons ul li.reddit a {
+
+	background:$reddit;
+}
+
+.gc-social-widget .social-icons ul li.yt a {
+
+	background:$youtube;
+}
+
+.gc-social-widget .social-icons ul li.dribble a {
+
+	background:$dribble;
+}
+
+
+
+
+
+
+
+
+
+

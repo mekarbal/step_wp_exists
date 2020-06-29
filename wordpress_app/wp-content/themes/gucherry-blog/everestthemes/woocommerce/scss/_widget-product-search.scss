@@ -1,0 +1,33 @@
+.woocommerce.widget {
+  form.woocommerce-product-search {
+    position: relative;
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    input.search-field {
+      // margin-bottom: 7px;
+      // width: calc(100% - 110px);
+      // width: -moz-calc(100% - 110px);
+      // width: -webkit-calc(100% - 110px);
+      // width: -o-calc(100% - 110px);
+      width: 100%;
+    }
+    button {
+      float: right;
+      padding-left: 10px;
+      padding-right: 20px;
+      color: #444;
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    button,
+    input.search-field {
+      border-radius: 4px;
+    }
+  }
+}

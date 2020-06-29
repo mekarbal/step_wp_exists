@@ -1,0 +1,42 @@
+.alignleft {
+	
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+
+    display: inline;
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+
+// gutenberg aligment ( full width & wide width )
+
+
+body.no-sidebar .alignfull {
+
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+body.no-sidebar .alignwide {
+
+    width: 70vw;
+    width: 70vw;
+    margin-left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

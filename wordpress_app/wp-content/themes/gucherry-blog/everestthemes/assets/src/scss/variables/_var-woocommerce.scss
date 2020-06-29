@@ -1,0 +1,101 @@
+
+
+// Woocommere Color variables 
+
+
+$woo-on-sale-color 						: red;
+$woo-body-color                         : #333333;
+$woo-primary-color                      : $primary_color;
+$woo-secondary-color                    : $secondary_color;
+$woo-third-color                        : $third_color;
+$woo-buttons-color						: $secondary_color;
+$woo-button-hover-color					: $third_color;
+$woo-border-color						: #eeeeee;
+$woo-section-bg-color					: #f5f5f5;
+$woo-special-color                      : #eeeeee;
+
+
+
+
+// Woocommerce Typography variables
+
+
+$woo-body-font-size						: $body_font_size;
+$woo-heading-big-size					: 27px;
+$woo-heading-medium-size				: 23px;
+$woo-heading-small-size					: 16px;
+
+
+
+
+// Woocommerce spacing variables
+
+
+$woo-outer-section-spacing				: 50px;
+$woo-inner-gap-spacing					: 30px;
+
+
+
+
+// woo mixins 
+
+
+@mixin woo_products_shadow () {
+
+	box-shadow: 0 2px 6px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.1);
+	-o-box-shadow: 0 2px 6px rgba(0,0,0,.1);;
+	-ms-box-shadow: 0 2px 6px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+
+@mixin flex_row () {
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@mixin flex_row_alt () {
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@mixin flex_col ( $width ) {
+
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 $width;
+    flex: 0 0 $width;
+    max-width: $width;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

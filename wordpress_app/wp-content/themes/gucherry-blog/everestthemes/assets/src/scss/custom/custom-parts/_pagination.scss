@@ -1,0 +1,91 @@
+
+// pagination 
+
+.gc-pagination nav.pagination .nav-links {
+
+	margin:-4px -4px;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers {
+	
+	display:inline-block;
+	line-height: 45px;
+	height:45px;
+	width: 45px;
+	text-align: center;
+	margin:4px 4px;
+	@include border-radius(100%);
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.next,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev  {
+	
+	position: relative;
+	width:auto;
+	height:auto;
+	background:transparent;
+	border-radius: 0;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.prev {
+
+	padding-left: 20px;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.next {
+
+	padding-right: 20px;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.next::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev::before {
+
+	content:'';
+    width:20px;
+    height:1px;
+    position:absolute;
+    left: auto;
+    top: 50%;
+    right: -6px;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+    z-index: 2;
+    @include transation_delay();
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.prev::before {
+
+	left:-6px;
+	right:auto;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover {
+
+	padding-right: 40px;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover {
+
+	padding-left: 40px;
+}
+
+.gc-pagination nav.pagination .nav-links .page-numbers.next:hover::before,
+.gc-pagination nav.pagination .nav-links .page-numbers.prev:hover::before {
+	
+	content:'';
+	width:35px;
+}
+
+.gc-pagination nav.pagination .nav-links span.page-numbers.current {
+
+    background-color: #000;
+}
+nav#gucherry_blog_pagination{
+    float: left;
+}
+#gucherry_blog_loadmore {
+    float: right;
+}

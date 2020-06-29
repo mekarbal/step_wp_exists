@@ -1,0 +1,142 @@
+
+// Mixins: transation delay
+
+
+@mixin transation_delay () {
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+   	-o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin transation_delay_medium () {
+
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+   	-o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+} 
+
+@mixin transation_delay_slow () {
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+   	-o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+// hover scale 
+
+@mixin scale () {
+
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+// Mixins : Border Radius
+
+@mixin border_radius ( $radius ) {
+
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+
+}
+
+
+// Mixins : drop shadow 
+
+@mixin drop_shadow () {
+
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	-o-box-shadow: 0 2px 6px rgba(0,0,0,.2);;
+	-ms-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+
+//  Mixins : Position absolute top align 
+
+
+@mixin position_absolute ( $top, $bottom, $left, $right ) {
+	
+	 position: absolute;
+	 top:$top;
+	 bottom:$bottom;
+	 left:$left;
+	 right:$right;
+	 -webkit-transform:translateY(-50%);
+	 -moz-transform:translateY(-50%);
+	 -ms-transform:translateY(-50%);
+   	 -o-transform:translateY(-50%);
+	 transform:translateY(-50%);
+}
+
+
+// Poition absolute top & left align 
+
+@mixin pos_absolute_topnleft () {
+	
+	 position: absolute;
+	 top:50%;
+	 left:50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+// Mixins : Black mask 
+
+@mixin mask () {
+
+	 position: absolute;
+	 z-index:1;
+	 top:0;
+	 bottom:0;
+	 left:0;
+	 right:0;
+	 background:rgba(0,0,0,0.1);
+	 @include transation_delay();
+}
+
+
+// Mixis for custom row ( Flex row)
+
+
+@mixin flex_row () {
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@mixin flex_row_alt () {
+
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@mixin flex_col ( $width ) {
+
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 $width;
+    flex: 0 0 $width;
+    max-width: $width;
+}

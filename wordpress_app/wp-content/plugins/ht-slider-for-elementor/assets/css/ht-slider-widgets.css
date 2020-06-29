@@ -1,0 +1,146 @@
+/* Slider Button */
+.htslider-slider-area{
+  position: relative;
+}
+.htslider-slider .slick-arrow {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e1e1e1;
+  border-radius: 100%;
+  font-size: 22px;
+  height: 60px;
+  left: 20px;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 99;
+  transition: 0.4s;
+  opacity: 1;
+  margin: 0;
+}
+.htslider-slider .slick-arrow.slick-next {
+  left: auto;
+  right: 20px;
+}
+.htslider-slider .slick-arrow:hover{
+    background: #1f2226;
+    color: #fff;
+    border-color: #1f2226;
+}
+
+.htslider-slider .slick-dots {
+  bottom: 0px;
+  display: flex;
+  left: 50%;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.htslider-slider .slick-dots li {
+  line-height: 12px;
+  margin: 0 4px;
+}
+.htslider-slider .slick-dots li button {
+  background-color: transparent;
+  border: 1px solid #4e4f4f;
+  border-radius: 50px;
+  height: 13px;
+  padding: 0;
+  text-indent: -9999px;
+  width: 13px;
+  line-height: 13px;
+}
+.htslider-slider-area .hero-slider-controls .slick-arrow i,
+.htslider-slider .slick-arrow i {
+    color: #282828;
+    opacity: 1;
+}
+.htslider-slider .slick-dots li.slick-active button {
+  background-color: #282828;
+  border-color: #282828;
+}
+.slick-dots button:focus,.slick-arrow:focus{
+  outline: none;
+}
+
+/* Navigation Style Two */
+.htslider-slider-area .hero-slider-controls {
+  padding: 60px 0;
+  position: absolute;
+  right: 50px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  z-index: 99;
+}
+.htslider-slider-area .hero-slider-controls .slick-arrow {
+  background-color: #fff;
+  border: medium none;
+  border-radius: 100%;
+  font-size: 20px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(90deg);
+  width: 50px;
+  transition: 0.4s;
+  opacity: 1;
+}
+.htslider-slider-area .hero-slider-controls .slick-arrow:hover{
+  background: #1f2226;
+  color: #fff;
+}
+.htslider-slider-area .hero-slider-controls .slick-arrow {
+  padding: 0;
+}
+.htslider-slider-area .hero-slider-controls .slick-arrow.slick-next {
+  bottom: 0;
+  top: auto;
+}
+.htslider-slider-area .hero-slider-controls .slick-dots {
+  margin: 0;
+  padding: 0;
+}
+.htslider-slider-area .hero-slider-controls .slick-dots li {
+  display: block;
+  line-height: 12px;
+  margin: auto auto 8px;
+}
+.htslider-slider-area .hero-slider-controls .slick-dots li:last-child{
+  margin: 0;
+}
+.htslider-slider-area .hero-slider-controls .slick-dots li.slick-active button {
+  background-color: #282828;
+  border-color: #282828;
+}
+.htslider-slider-area .hero-slider-controls .slick-dots li button {
+  background-color: transparent;
+  border: 1px solid #4e4f4f;
+  border-radius: 50px;
+  height: 13px;
+  padding: 0;
+  text-indent: -9999px;
+  width: 13px;
+  line-height: inherit;
+}
+
+.htslider-slider-area.navigation-style-3 .hero-slider-controls {
+  bottom: 50px;
+  left: 50px;
+  top: auto;
+  transform: translateY(0px);
+}
+
+.htslider-slider-area .slick-prev::before, .htslider-slider-area .slick-next::before {
+  display: none;
+}
+.slider-area.htslider-slider .slingle-slider a {
+  text-decoration: none;
+}
+
+/*end*/

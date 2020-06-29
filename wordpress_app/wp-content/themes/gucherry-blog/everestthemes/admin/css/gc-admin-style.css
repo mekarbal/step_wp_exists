@@ -1,0 +1,24 @@
+/*
+Widget at Apperence > widgets 
+*/
+
+.widgets-holder-wrap [id*="gucherry-blog-"] .widget-top {
+
+    background: #fffbe4;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#wpforms-welcome .button-wrap .right,
+#wpforms-welcome .upgrade-cta,
+#wpforms-welcome .features .button-wrap,
+.wpforms-setup-title.additional,
+.wpforms-setup-desc.additional,
+#wpforms-builder .btn-green.wpforms-upgrade-link,
+#wpforms-builder .wpforms-panels-toggle button.wpforms-panel-settings-button,
+#wpforms-panel-fields .wpforms-add-fields-group .wpforms-add-fields-button.upgrade-modal,
+#wpforms-builder .wpforms-panels-toggle button.wpforms-panel-providers-button,
+#wpforms-builder .wpforms-panels-toggle button.wpforms-panel-payments-button {
+
+    display: none;
+}

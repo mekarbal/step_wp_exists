@@ -1,0 +1,88 @@
+
+/**
+=======================================================
+
+- File: Master importer ( Imports all scss files )
+
+- Project : GuCherry Blog
+
+- Author: Everest themes
+
+- Author url : https://everestthemes.com/
+
+- Since : 10 may, 2019
+
+- Last updated: 20 june, 2019
+
+======================================================================================
+*/
+
+// Import framework
+
+@import 'framework/bootstrap-reboot';
+@import 'framework/bootstrap-grid';
+
+// Import variables 
+
+@import 'variables/var-typography';
+@import 'variables/var-colors';
+@import 'variables/var-woocommerce';
+@import 'variables/var-spacing';
+
+// Import mixins
+
+@import 'custom/custom-parts/mixins'; 
+
+// Import libraries 
+
+@import 'libraries/owlcarousel';
+@import 'libraries/retina';
+@import 'libraries/animate';
+@import 'libraries/niceselect';
+
+
+// Import font icons 
+
+@import 'fonticons/fontawesome/fontawesome';
+@import 'fonticons/themify/themify';
+@import 'fonticons/feather/feather';
+
+// Import custom parts & custom style file 
+
+@import 'custom/custom-parts/reset';         		// Our custom reset
+@import 'custom/custom-parts/forms';				// forms
+@import 'custom/custom-parts/buttons';				// buttons
+@import 'custom/custom-parts/links';				// links
+@import 'custom/custom-parts/aligment'; 			// aligment
+@import 'custom/custom-parts/elements';				// elements
+@import 'custom/custom-parts/accessibility';		// assibility
+@import 'custom/custom-parts/clearing';				// clearing
+@import 'custom/custom-parts/typography';			// typography
+@import 'custom/custom-parts/widget';				// custom widgets
+@import 'custom/custom-parts/pagination';			// pagination
+@import 'custom/custom-parts/breadcrumb';			// breadcrumb
+@import 'custom/custom-parts/back-to-top';			// back to top
+@import 'custom/custom-parts/menu';					// primary menu
+@import 'custom/custom-parts/canvassidebar';		// Canvas sidebar
+@import 'custom/custom-parts/gucherry-blog';		// GuCherry blog classes
+
+
+@import 'custom/wordpress/wp-default-widget';		// wp default widgets
+@import 'custom/wordpress/wordpress';				// wp styles
+
+@import 'custom/custom-parts/editor-styles';  		// [ Editor styles here ]
+@import 'custom/custom-styles';  					// [ we code custom style here ]
+
+@import 'custom/common/common-colors';				// custom common colors
+@import 'custom/common/common-typography';			// custom common typography
+@import 'custom/common/common-spacing';				// custom common spacing
+
+
+// Import media query for responsive 
+
+@import 'custom/custom-parts/responsive'; 			
+
+// Import keyframes
+
+@import 'custom/custom-parts/keyframe'; 
+
